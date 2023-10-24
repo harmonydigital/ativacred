@@ -1,65 +1,36 @@
-const menu = document.getElementById("menu")
 
+const navObj=document.querySelector('nav')
 
-menuToggle=()=>{  
-    const nav = document.querySelector('.nav')
-     
+menutoggleMenu=()=>{
+
+      navObj.classList.toggle('show')
     
-if (window.matchMedia("(max-width: 768px)").matches) {
-    /* a viewport tem pelo menos 400 pixels de largura */
-    nav.classList.toggle("xs-hidden")
 
-  } else {
-    /* a viewport menos que 400 pixels de largura */
-    fullbanner.style.cssText='background-image: url(assets/img/fulldesign.png);'
+}   
 
-    nav.classList.toggle("sm-hidden")
+closeMenu=()=>{  navObj.removeAttribute('class') }   
 
 
-  }
- 
-} 
+dropDownMenu=()=>{
+      
+      toogleDrop=(evt)=>{
+            var thisDrop=evt.target.nextSibling.nextSibling
 
+            console.log(thisDrop)
 
-menu.innerHTML = `
+            thisDrop.classList.toggle('show')
+            return console.log('drop',evt.target.nextSibling.nextSibling) 
 
-        <button onclick="menuToggle()">
-            <img src="assets/img/menu-icon.png">
+         }
 
-        </button>
+      var itensDrop=Array.from(document.querySelectorAll('.menu ul .iten-dropdown'))  
 
-        <div id="nav" class="nav xs-hidden sm-hidden"> 
-            <div class="nav-header">
-                <img src="assets/img/logo.png">
-                <button onclick="menuToggle()"><i class="fa-regular fa-circle-xmark"></i></button>
-            </div>
-            <ul>
-            <li>
-                <a class="nav-link" href="index.html">Pagina Inicial</a>
-            </li>
-            <li>
-                <a class="nav-link" href="#">Web Design</a>
-            </li>
-            <li>    
-                <a class="nav-link" href="#">Design Social Media</a>
-            </li>
-            </ul>
+      Array.from(itensDrop).map((elements)=>{
+            console.log(itensDrop)
+            elements.addEventListener("click", toogleDrop);
+      })
+      // itensDrop
 
-            <div class="socialmedia">
-                <h6>Follow me baby</h6>
-                <ul>
-                    <li>
-                        <a class="nav-link" href="#"><i class="fa-brands fa-instagram"></i></a>
-                    </li>
-                    <li>
-                        <a class="nav-link" href="https://www.facebook.com/profile.php?id=100091804441284" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
-                    </li>
-                    <li>    
-                        <a class="nav-link" href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        
-`;
-
+      
+}
+dropDownMenu()
