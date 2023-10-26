@@ -1,11 +1,11 @@
 .content-text h2 {
-    color: #4F6B96;
+    color: #0054D2;
     font-weight: 600;
     text-align: start;
     width: 90%;
 }
 .content-text h2 strong {
-    color: #FFC702;
+    color: #FFD707;
 }
 
 .content-text {
@@ -24,6 +24,9 @@
     padding: 12px;
     max-width: 40%;
     margin: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .card.active {
     background-color: #0054D2;
@@ -69,6 +72,11 @@
 
 
 
+
+
+
+
+
 .bread .card-container {
     flex-flow: column;
 }
@@ -86,4 +94,16 @@
 }
 .bread .card-container .card button svg{
     color: white;
+}
+
+
+
+
+
+
+@media (min-width:768px) {
+    .card-container {
+        margin-left: 65px;
+        max-width: 370px;
+    }
 }

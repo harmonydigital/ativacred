@@ -149,13 +149,17 @@ initapp=()=>{
 
                 </div>
                   <div class='highlights'>
+                     <div class='content-text'>
+                              <h2>
+                              Mais <strong>vantagens</strong> para você Reativar seu <strong>Crédito</strong> 
+                              e voltar a investir.</h2>
+                     
+                           </div>
                      <div class='container'>
-                        <div class='content-text'>
-                           <h2>
-                           Mais <strong>vantagens</strong> para você Reativar seu <strong>Crédito</strong> 
-                           e voltar a investir.</h2>
-                   
+                        <div>
+                           <img class='icon' src='assets/img/persona2.png'>
                         </div>
+                        
                            <div class='card-container'>
                               <div class='card active'>
                                  <div class='card-header'>
