@@ -16,13 +16,22 @@ relogio=()=>{
 
     return horaatual
 }  
+gotop=()=>{
+
+   console.log('go')  
+   window.scrollTo(0, 0);
+}
 initapp=()=>{
     app.innerHTML=`
         <header  id="top">
-            <div class='brand'><a href='index.html'><img class='logo' src='assets/img/beija.png'></a></div>
+
+      
+
+        <div   class="container-flx">
             <div class='menu'>
             <button onclick='menutoggleMenu()' class='btn-menu'>
-            <i class="fa-solid fa-bars"></i>
+             
+            <img class='logo' src='assets/img/menu-bar.png' alt='..'>
             </button>
                 <nav>
                     <div class='controls' onclick='closeMenu()' >
@@ -40,43 +49,74 @@ initapp=()=>{
                            <div class='dropdown'>
                               <ul>
                                  <li>
-                                    <a href='https://harmonydigital.github.io/ecommercelive/' target='_blank' >E-commerce <i class="fa-solid fa-arrow-right"></i></a>
+                                    <a href='#' target='_blank' >Reabilita Crédito <i class="fa-solid fa-arrow-right"></i></a>
                                  </li>
                                 
                               </ul>
                            </div>
                         </li>
                         <li>
-                           <a href='#portfolio'>Galeria</a>
+                           <a href='#'>Vantagens</a>
                         </li>
                         <li>
-                            <a href='#about'>Sobre</a>
-                        </li>
-                        <li>
-                            <a href='#contact'>E-mail</a>
-                        </li>
-                        <li>
+                        <a href='#'>Passo a passo</a>
+                     </li>
+                        
+                        
+                        <li >
                             <a class='btn primary convert-btn' href="">
-                                <span>Fale comigo</span>
+                                <span>Atendinto</span>
                                 <i class="fa-brands fa-whatsapp"></i>
                             </a>
                         </li>
-                        <li>
+                        <li >
                             <a class='btn inline' href="https://github.com/harmonydigital/harmonywebsites" target='_blank'>
-                                <span>v1.0</span>
-                                <i class="fa-brands fa-github"></i>
+                                <span>Entrar</span>
+                                <i class="fa-solid fa-arrow-right-to-bracket"></i>
                             </a>
                         </li>
                     </ul>
                 </nav>
             </div>
             
+                <div class='brand'><a href='index.html'>
+                <img class='h-sm' src='assets/img/prianti-logo.png' alt='..'></a>
+                <img class='h-xs' src='assets/img/logo-desk.png' alt='..'></a>
+                </div>
+                <div>...
+                </div>
+            </div>
+             <div class='user-area'> 
+               <div class='container-flx'>  
+               <div class=''>  
+                <span>Busque restrições em seu CPF.<span>
+               </div>
+               <div class=''>  
+               <i class="fa-regular fa-user"></i>Entrar
+               </div> 
+               </div> 
+               </div> 
+
+
+               <div class='searchapi'>
+
+         <label>
+         </label>
+
+          <div class=' '>
+
+            <input type='' placeholder='Digite seu CPF'>
+      
+          </div>
+      </div>
+
+       
         </header>
 
         <main> 
-                <div class='display'> 
+                <div class='display' style='display:none;'> 
                         <div class='content-text'>
-                            <span class='title'>Harmony</span>
+                            <span class='title'>Crédito</span>
                             <h1>Visível, leve e intuitivo.</h1>
                             <h2>ative a criatividade, comece algo novo</br>  agora mesmo...</h2>
                             <a class='btn-down' href='#about'>
@@ -84,22 +124,26 @@ initapp=()=>{
                             </a>
                         </div>
                         <div class='social'>
-                            <a class='' href='https://www.instagram.com/harmonydigitalflow/'  target="_blank">    
+                            <a class='' href='#'  target="_blank">    
                                 <i class="fa-brands fa-instagram"></i>
                             </a>
                             
-                            <a class='' href="https://www.linkedin.com/in/harmony-digital/" target="_blank">
+                            <a class='' href="#" target="_blank">
                               <i class="fa-brands fa-linkedin-in"></i>
                             </a>
-                            <a class='' href="https://github.com/harmonydigital" target="_blank" > 
-                                <i class="fa-brands fa-github"></i>
-                            </a>
+                            
                         </div>
 
 
                 </div>
-
-                <div class='harmonyabout' id='about'>
+                  <div class='highlights'>
+                     <div class='container'>
+                        <div class='content-text'>
+                           <h2>Mais vantagens para você Reativar seu <strong>Crédito</strong> e voltar a investir.</h2
+                        </div>
+                     </div>
+                  </div>
+                <div class='harmonyabout' id='about' style='display:none;'>
                     <div class='container-flex'>
                         <div class='content-text'>
                         <span class='title'></span>
@@ -124,7 +168,7 @@ initapp=()=>{
                     </div>
                 </div>
 
-                <div class='portfolio' id='portfolio'>
+                <div class='portfolio' id='portfolio' style="display: none;">
                 <div class='text-content'>
                    <span class='title'></span>
                    <h3>Galeria Portfólio</h3>
@@ -396,5 +440,7 @@ initapp=()=>{
         </main>
 
     `
-}
+   
+}   
+gotop()
 app ? initapp() : console.log('err')

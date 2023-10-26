@@ -38,7 +38,7 @@ a.whatsapi {
     font-size: 1.5rem;
     right: 20px;
     top: 77%;
-    background-image: linear-gradient(to right top, #ecb6e0, #54ffc6); 
+    /* background-image: linear-gradient(to right top, #ecb6e0, #54ffc6);  */
     box-shadow: 1px 1px 3px #8886b7cf;
 }
 a.whatsapi span {
