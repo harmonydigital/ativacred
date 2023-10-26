@@ -1,0 +1,89 @@
+.content-text h2 {
+    color: #4F6B96;
+    font-weight: 600;
+    text-align: start;
+    width: 90%;
+}
+.content-text h2 strong {
+    color: #FFC702;
+}
+
+.content-text {
+    padding: 50px 5px 0;
+}
+
+.card-container {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card {
+    background-color: #ffff;
+    border-radius: 30px;
+    padding: 12px;
+    max-width: 40%;
+    margin: 10px 0px;
+}
+.card.active {
+    background-color: #0054D2;
+}
+.card.card.active h5 {
+    color: #FFD707;
+}
+.card h5 {
+    font-size: 16px;
+    font-weight: bolder;
+    color: #0054D2;
+}
+.card.card.active p {
+    color: #fff;
+}
+.card p {
+    margin: 15px auto 0px;
+    font-size: 14px;
+    color: #8599AB;
+    font-weight: 500;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: right;
+}
+.card button {
+    border: 2px solid #0054D2;
+    border-radius: 100px;
+    display: flex;
+    background: transparent;
+    color: #0054D2;
+    padding: 5px;
+}
+.card.card.active button {
+    border: 2px solid #ffff;
+    border-radius: 100px;
+    display: flex;
+    background: transparent;
+    color: white;
+    padding: 5px;
+}
+
+
+
+.bread .card-container {
+    flex-flow: column;
+}
+
+.bread .card-container .card {
+    min-width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bread .card-container .card button{
+   
+    background-color: #0054D2;
+}
+.bread .card-container .card button svg{
+    color: white;
+}

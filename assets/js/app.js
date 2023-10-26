@@ -114,12 +114,13 @@ initapp=()=>{
         </header>
 
         <main> 
-                <div class='display' style='display:none;'> 
+                <div class='display'  > 
                         <div class='content-text'>
+                           <h1 >Reabilite seu</h1> 
                             <span class='title'>Crédito</span>
-                            <h1>Visível, leve e intuitivo.</h1>
-                            <h2>ative a criatividade, comece algo novo</br>  agora mesmo...</h2>
-                            <a class='btn-down' href='#about'>
+                            <p>‘seu nome limpo sem complicações’</p>
+                            <h2 >veja como é fácil reabilitar seu crédito já.</h2>
+                            <a  class='btn-down' href='#about'>
                                 <i class="fa-solid fa-chevron-down"></i>
                             </a>
                         </div>
@@ -139,35 +140,196 @@ initapp=()=>{
                   <div class='highlights'>
                      <div class='container'>
                         <div class='content-text'>
-                           <h2>Mais vantagens para você Reativar seu <strong>Crédito</strong> e voltar a investir.</h2
+                           <h2>
+                           Mais <strong>vantagens</strong> para você Reativar seu <strong>Crédito</strong> 
+                           e voltar a investir.</h2>
+                   
                         </div>
+                           <div class='card-container'>
+                              <div class='card active'>
+                                 <div class='card-header'>
+                                    <img class='icon' src='assets/img/$.png'>
+                                 </div>
+                                 <div class='card-main'>
+                                    <h5>  
+                                       Reabilitação de crédito
+                                    </h5>
+                                    <p>
+                                       Resolva e volte a comprar
+                                    </p>
+                                 </div>
+                                 <div class='card-footer'>
+                                    <button>
+                                       <i class="fa-solid fa-arrow-right"></i>
+                                    </button>
+                                 </div>   
+                              </div>
+                              <div class='card'>
+                                 <div class='card-header'>
+                                    <img class='icon' src='assets/img/flag-icon.png'>
+                                 </div>
+                                 <div class='card-main'>
+                                    <h5>  
+                                       Reabilitação de crédito
+                                    </h5>
+                                    <p>
+                                       Resolva e volte a comprar
+                                    </p>
+                                 </div>
+                                 <div class='card-footer'>
+                                    <button>
+                                       <i class="fa-solid fa-arrow-right"></i>
+                                    </button>
+                                 </div>   
+                              </div>
+
+                              <div class='card'>
+                                 <div class='card-header'>
+                                    <img class='icon' src='assets/img/flag-icon.png'>
+                                 </div>
+                                 <div class='card-main'>
+                                    <h5>  
+                                       Reabilitação de crédito
+                                    </h5>
+                                    <p>
+                                       Resolva e volte a comprar
+                                    </p>
+                                 </div>
+                                 <div class='card-footer'>
+                                    <button>
+                                       <i class="fa-solid fa-arrow-right"></i>
+                                    </button>
+                                 </div>   
+                              </div>
+                              <div class='card'>
+                                 <div class='card-header'>
+                                    <img class='icon' src='assets/img/flag-icon.png'>
+                                 </div>
+                                 <div class='card-main'>
+                                    <h5>  
+                                       Reabilitação de crédito
+                                    </h5>
+                                    <p>
+                                       Resolva e volte a comprar
+                                    </p>
+                                 </div>
+                                 <div class='card-footer'>
+                                    <button>
+                                       <i class="fa-solid fa-arrow-right"></i>
+                                    </button>
+                                 </div>   
+                              </div>
+                           </div>
                      </div>
                   </div>
-                <div class='harmonyabout' id='about' style='display:none;'>
-                    <div class='container-flex'>
-                        <div class='content-text'>
-                        <span class='title'></span>
-                        <h2>produtos
-                        para pessoas,
-                        como eu e você.</h2>
-                        <a class='anchor btn primary convert-btn h-xs' href='#about'>
-                        <span>Fale comigo</span>
-                                <i class="fa-brands fa-whatsapp"></i>
-                            </a>
-                        </div>
 
-                        <div>
-                            <p>Harmony se traduz na eficiente interação entre produtos e pessoas.
-                            </br></br>Somos a estreita relação do homem e tecnologia, amamos criar soluções reais para tornar a vida de pessoas ainda
-                            melhor.
-                            </br></br>Unimos um grupo de profissionais do Design, para conversas sobre o comportamento humano e como a interação de alguns produtos podem ser tão relevantes, assim projetar novos modelos e testar novas soluções.
-                            </br></br>Aqui tudo começa na relação de pessoa para pessoa, criamos uma conexão com o interlocutor e então podemos entender como o Design pode solucionar e otimizar nossa vida enquanto seres humanos.
-                            Veja o que fizemos até aqui, e crie algo novo você também..</p>
+                  <div class='bread'>
+                     <div class='container'>
+                           <div class='content-text'>
+                              <h2>Passo a passo simplespara você reativar seu crédito agora..</h2>
+                              </div>
+                              <div class='card-container'>
+                                 <div class='card active'>
+                                    <div class='card-header'>
+                                       
+                                    </div>
+                                    <div class='card-main'>
+                                       <h5>  
+                                          Reabilitação de crédito
+                                       </h5>
+                                       <p>
+                                          Resolva e volte a comprar
+                                       </p>
+                                    </div>
+                                    <div class='card-footer'>
+                                       <button>
+                                          <i class="fa-solid fa-arrow-right"></i>
+                                       </button>
+                                    </div>   
+                                 </div>
+                                 <div class='card'>
+                                    <div class='card-header'>
+                                      
+                                    </div>
+                                    <div class='card-main'>
+                                       <h5>  
+                                          Reabilitação de crédito
+                                       </h5>
+                                       <p>
+                                          Resolva e volte a comprar
+                                       </p>
+                                    </div>
+                                    <div class='card-footer'>
+                                       <button>
+                                          <i class="fa-solid fa-arrow-right"></i>
+                                       </button>
+                                    </div>   
+                                 </div>
+
+                                 <div class='card'>
+                                    <div class='card-header'>
+                                       
+                                    </div>
+                                    <div class='card-main'>
+                                       <h5>  
+                                          Reabilitação de crédito
+                                       </h5>
+                                       <p>
+                                          Resolva e volte a comprar
+                                       </p>
+                                    </div>
+                                    <div class='card-footer'>
+                                       <button>
+                                          <i class="fa-solid fa-arrow-right"></i>
+                                       </button>
+                                    </div>   
+                                 </div>
+                                 <div class='card'>
+                                    <div class='card-header'>
+                                       <img class='icon' src='assets/img/flag-icon.png'>
+                                    </div>
+                                    <div class='card-main'>
+                                       <h5>  
+                                          Reabilitação de crédito
+                                       </h5>
+                                       <p>
+                                          Resolva e volte a comprar
+                                       </p>
+                                    </div>
+                                    <div class='card-footer'>
+                                       <button>
+                                          <i class="fa-solid fa-arrow-right"></i>
+                                       </button>
+                                    </div>   
+                                 </div>
+                              </div>
                         </div>
-                  
-                    </div>
+                     </div>
+                  <div class='harmonyabout' id='about' style='display:none;'>
+                     <div class='container-flex'>
+                           <div class='content-text'>
+                           <span class='title'></span>
+                           <h2>produtos
+                           para pessoas,
+                           como eu e você.</h2>
+                           <a class='anchor btn primary convert-btn h-xs' href='#about'>
+                           <span>Fale comigo</span>
+                                 <i class="fa-brands fa-whatsapp"></i>
+                              </a>
+                           </div>
+
+                           <div>
+                              <p>Harmony se traduz na eficiente interação entre produtos e pessoas.
+                              </br></br>Somos a estreita relação do homem e tecnologia, amamos criar soluções reais para tornar a vida de pessoas ainda
+                              melhor.
+                              </br></br>Unimos um grupo de profissionais do Design, para conversas sobre o comportamento humano e como a interação de alguns produtos podem ser tão relevantes, assim projetar novos modelos e testar novas soluções.
+                              </br></br>Aqui tudo começa na relação de pessoa para pessoa, criamos uma conexão com o interlocutor e então podemos entender como o Design pode solucionar e otimizar nossa vida enquanto seres humanos.
+                              Veja o que fizemos até aqui, e crie algo novo você também..</p>
+                           </div>
+                     
+                     </div>
+                  </div>
                 </div>
-
                 <div class='portfolio' id='portfolio' style="display: none;">
                 <div class='text-content'>
                    <span class='title'></span>

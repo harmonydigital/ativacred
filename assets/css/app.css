@@ -23,6 +23,13 @@
     align-items: center;
     justify-content: center;
 }
+.content-text p {
+    color: white;
+    font-weight: 300;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+}
  .user-area {
      color: white;
      margin: 5px 10px 20px;
@@ -144,15 +151,16 @@
      align-items: center;
 }
  a.btn-down{
-     align-items: center;
-     justify-content: center;
-     background: transparent;
-     display: flex;
-     width: 30px;
-     margin: 22px auto 0;
-     height: 45px;
-     border-radius: 20px;
-     border: 2px solid;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    display: flex;
+    width: 30px;
+    margin: 0px auto 0;
+    height: 26px;
+    border-radius: 20px;
+    border: 0;
+    color: white;
 }
  a{
      color: black;
@@ -385,6 +393,11 @@
     }
 }
  @media(min-width:768px){
+    .highlights .container {
+        display: flex;
+        max-width: 85%;
+        margin: 0 auto;
+    }
     .h-sm {
         display: none;
     }
@@ -467,9 +480,20 @@
     }
 }
  @media(min-width:1200px){
+    .highlights {
+        padding: 60px 0;
+    }
+    .highlights .container {
+        
+        max-width: 75%;
+         
+    }
      .display .content-text h2 {
-         width: 340px;
-         margin: 90px auto 0;
+        width: 210px;
+        margin: 115px auto 0;
+        font-size: 0.8rem;
+        font-weight: 400;
+        color: white;
     }
      div#portfolio span.title::before {
          left: inherit;
@@ -490,6 +514,8 @@
     }
      .display .content-text {
          padding: 13% 0 0;
+         max-width: 80%;
+         margin: 0 auto;
     }
      .harmonyabout {
          min-width: 100%;
@@ -525,6 +551,7 @@
          letter-spacing: 0;
          color: white;
          text-shadow:inherit;
+         text-align: left;
         /* text-shadow: 0px 0px 9px #00dbff9e;
          */
     }
@@ -535,14 +562,17 @@
          padding: 15% 0 0;
     }
      .display h1 {
-         font-size: 2.3rem;
-         letter-spacing: 15px;
+        font-size: 1.3rem;
+        letter-spacing: 6px;
+        color: white;
+        text-align: left;
+        padding: 0 5px;
     }
      nav ul{
          display: flex !important;
     }
      .display {
-         height: 100vh;
+         height: 73vh;
     }
      .harmonyabout {
          margin: 0 auto;

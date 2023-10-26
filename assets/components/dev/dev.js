@@ -15,7 +15,7 @@ const msgDev=document.getElementById('dev')
 // `
 msgDev.style.cssText='background:#00008f'
 
-if(1===1){
+if(1===2){
 msgDev.innerHTML=`
     <div style="
     text-align: center;
