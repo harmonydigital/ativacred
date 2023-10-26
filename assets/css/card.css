@@ -17,12 +17,15 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding: 15px;
 }
 .card {
     background-color: #ffff;
     border-radius: 30px;
-    padding: 12px;
-    max-width: 40%;
+    padding: 15px;
+    max-width:37%;
+    margin: 10px 0px;
+
     margin: 10px 0px;
     display: flex;
     flex-direction: column;
@@ -79,6 +82,8 @@
 
 .bread .card-container {
     flex-flow: column;
+    position: relative;
+    margin-left: 70px;
 }
 
 .bread .card-container .card {

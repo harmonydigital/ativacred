@@ -61,6 +61,9 @@ initapp=()=>{
                         <li>
                         <a href='#'>Passo a passo</a>
                      </li>
+                     <li>
+                        <a href='#'>Legislação</a>
+                     </li>
                      
                         
                         
@@ -141,7 +144,7 @@ initapp=()=>{
                             </a>
                             
                             <a class='' href="#" target="_blank">
-                              <i class="fa-brands fa-linkedin-in"></i>
+                            <i class="fa-brands fa-facebook"></i>
                             </a>
                             
                         </div>
@@ -238,34 +241,58 @@ initapp=()=>{
                      </div>
                   </div>
 
-                  <div class='bread' style='display:none;'>
+                  <div class='bread'>
+                     <div class='content-text'>
+                        <h2>Passo a passo simples para você reativar seu crédito agora..</h2>
+                     </div>
+
                      <div class='container'>
-                           <div class='content-text'>
-                              <h2>Passo a passo simplespara você reativar seu crédito agora..</h2>
-                              </div>
+                        <div>
+                           <img class='icon' src='assets/img/persona.png'>
+                        </div>
+                          
                               <div class='card-container'>
-                                 <div class='card active'>
-                                    <div class='card-header'>
+                                 
+                              <div class='card'>
+                                       <div class='card-header'>
+                                       <div class='tooltip blue'>
+                                       1
+                                       </div>
+                                       </div>
+                                       <div class='card-main'>
+                                          <h5>  
+                                             Reabilitação de crédito
+                                          </h5>
+                                          <p>
+                                             Resolva e volte a comprar
+                                          </p>
+                                       </div>
+                                       
+                                    </div>      
+                              
+                              <div class='card'>
+                                       <div class='card-header'>
+                                       <div class='tooltip blue'>
+                                       2
+                                       </div>
+                                       </div>
+                                       <div class='card-main'>
+                                          <h5>  
+                                             Reabilitação de crédito
+                                          </h5>
+                                          <p>
+                                             Resolva e volte a comprar
+                                          </p>
+                                       </div>
                                        
                                     </div>
-                                    <div class='card-main'>
-                                       <h5>  
-                                          Reabilitação de crédito
-                                       </h5>
-                                       <p>
-                                          Resolva e volte a comprar
-                                       </p>
-                                    </div>
-                                    <div class='card-footer'>
-                                       <button>
-                                          <i class="fa-solid fa-arrow-right"></i>
-                                       </button>
-                                    </div>   
+
+                                    <div class='card active'>
+                                 <div class='card-header'>
+                                 <div class='tooltip blue'>
+                                 3
                                  </div>
-                                 <div class='card'>
-                                    <div class='card-header'>
-                                      
-                                    </div>
+                                 </div>
                                     <div class='card-main'>
                                        <h5>  
                                           Reabilitação de crédito
@@ -274,49 +301,10 @@ initapp=()=>{
                                           Resolva e volte a comprar
                                        </p>
                                     </div>
-                                    <div class='card-footer'>
-                                       <button>
-                                          <i class="fa-solid fa-arrow-right"></i>
-                                       </button>
-                                    </div>   
+                                     
                                  </div>
 
-                                 <div class='card'>
-                                    <div class='card-header'>
-                                       
-                                    </div>
-                                    <div class='card-main'>
-                                       <h5>  
-                                          Reabilitação de crédito
-                                       </h5>
-                                       <p>
-                                          Resolva e volte a comprar
-                                       </p>
-                                    </div>
-                                    <div class='card-footer'>
-                                       <button>
-                                          <i class="fa-solid fa-arrow-right"></i>
-                                       </button>
-                                    </div>   
-                                 </div>
-                                 <div class='card'>
-                                    <div class='card-header'>
-                                       <img class='icon' src='assets/img/flag-icon.png'>
-                                    </div>
-                                    <div class='card-main'>
-                                       <h5>  
-                                          Reabilitação de crédito
-                                       </h5>
-                                       <p>
-                                          Resolva e volte a comprar
-                                       </p>
-                                    </div>
-                                    <div class='card-footer'>
-                                       <button>
-                                          <i class="fa-solid fa-arrow-right"></i>
-                                       </button>
-                                    </div>   
-                                 </div>
+                                 
                               </div>
                         </div>
                      </div>
