@@ -175,12 +175,13 @@
      bottom: 15rem;
 }
  .social a {
-     margin: 8px 5px;
-     display: flex;
-     width: 30px;
-     height: 30px;
-     justify-content: center;
-     align-items: center;
+    margin: 8px 45px;
+    display: flex;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
  .portfolio {
      background: #e5e5e5;
@@ -423,6 +424,7 @@
     }
      .social{
          display: flex;
+         align-items: flex-end;
     }
      .portfolio .text-content h3 {
          padding: 70px 0 50px !important;
@@ -547,13 +549,12 @@
          font-size: 1.1rem ;
     }
      .display span.title {
-         font-size: 5.5rem ;
-         letter-spacing: 0;
-         color: white;
-         text-shadow:inherit;
-         text-align: left;
-        /* text-shadow: 0px 0px 9px #00dbff9e;
-         */
+        font-size: 6.5rem;
+        letter-spacing: -7px;
+        color: white;
+        text-shadow: inherit;
+        text-align: left; 
+        color: #007bff;
     }
      .display a span {
          font-size: 0.9rem ;
@@ -572,7 +573,7 @@
          display: flex !important;
     }
      .display {
-         height: 73vh;
+         height: 83vh;
     }
      .harmonyabout {
          margin: 0 auto;

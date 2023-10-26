@@ -61,11 +61,12 @@ initapp=()=>{
                         <li>
                         <a href='#'>Passo a passo</a>
                      </li>
+                     
                         
                         
                         <li >
                             <a class='btn primary convert-btn' href="">
-                                <span>Atendinto</span>
+                                <span>Atendimento</span>
                                 <i class="fa-brands fa-whatsapp"></i>
                             </a>
                         </li>
@@ -75,6 +76,16 @@ initapp=()=>{
                                 <i class="fa-solid fa-arrow-right-to-bracket"></i>
                             </a>
                         </li>
+                        <li>
+                     <a href='#' style="
+                     color: #516583;
+                     text-transform: capitalize;
+                     font-size: 11px;
+                 ">Ajuda 
+                     <i class="fa-regular fa-circle-question"></i>
+
+                     </a>
+                  </li>
                     </ul>
                 </nav>
             </div>
@@ -223,7 +234,7 @@ initapp=()=>{
                      </div>
                   </div>
 
-                  <div class='bread'>
+                  <div class='bread' style='display:none;'>
                      <div class='container'>
                            <div class='content-text'>
                               <h2>Passo a passo simplespara você reativar seu crédito agora..</h2>
