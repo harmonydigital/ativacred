@@ -5,6 +5,18 @@ footer .display {
     padding: 30px 0;
     margin: 20px 0 0;
 }
+footer .sub-foot span:first-child {
+    margin: 20px auto;
+    display: block;
+    text-transform: uppercase;
+}
+.sub-foot ul {
+    margin: 13px auto 20px;
+}
+.sub-foot ul li a {
+    font-size: 11px;
+}
+
 .sub-foot {
     background: #01013d;
     color: #a1c6ff;
@@ -18,6 +30,10 @@ footer .display {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+}
+.sub-foot ul li {
+    margin: 0;
+    opacity: .5;
 }
 .footer-high .container .card {
     background: transparent;
@@ -33,7 +49,7 @@ footer .display {
 }
 .footer-high .container .card p {
      
-    color: white;
+    color: #8886b7;
      text-align: center;
      margin: 0;
     padding: 5px 0;
@@ -160,6 +176,11 @@ footer .content-text {
 }
 
 @media(min-width:768px){
+    
+    footer .sub-foot span:first-child {
+        margin: 0px auto 20px;
+         
+    }
     footer .display .content-text {
         padding:  0 !important ;
       
@@ -175,4 +196,11 @@ footer .content-text {
     justify-content: space-between;
     width: 55%;
 }
+}
+
+@media(min-width:1024px){
+    .footer-high {
+        max-width: 80%;
+        margin: 0 auto;
+    }
 }

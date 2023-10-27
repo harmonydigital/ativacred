@@ -182,6 +182,7 @@ initapp=()=>{
                                     </button>
                                  </div>   
                               </div>
+                              
                               <div class='card'>
                                  <div class='card-header'>
                                     <img class='icon' src='assets/img/flag-icon.png'>
@@ -286,11 +287,27 @@ initapp=()=>{
                                        </div>
                                        
                                     </div>
-
+                                    <div class='card'>
+                                    <div class='card-header'>
+                                    <div class='tooltip blue'>
+                                    1
+                                    </div>
+                                    </div>
+                                    <div class='card-main'>
+                                       <h5>  
+                                          Reabilitação de crédito
+                                       </h5>
+                                       <p>
+                                          Resolva e volte a comprar
+                                       </p>
+                                    </div>
+                                    
+                                 </div>      
+                           
                                     <div class='card active'>
                                  <div class='card-header'>
                                  <div class='tooltip blue'>
-                                 3
+                                 4
                                  </div>
                                  </div>
                                     <div class='card-main'>
