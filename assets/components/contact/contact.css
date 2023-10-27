@@ -23,9 +23,14 @@ div#returnSend .container {
     width: 100%;
     left: 0;
 }
+a.whatsapi.convert-btn .tooltip {
+    left: -180px;
+    font-size: 10px;
+    color: #af9d9d;
+}
 a.whatsapi {
     position: absolute;
-    background: #2bffb7;
+    background: #FFD707;
     width: 55px;
     height: 55px;
     display: flex;

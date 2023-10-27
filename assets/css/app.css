@@ -401,7 +401,10 @@ img {
     }
 }
  @media(max-width:767px){
-
+    .menu nav ul li a {
+       
+        border-bottom: 0px solid white !important;
+    }
      .h-xs{
          display: none !important;
     }

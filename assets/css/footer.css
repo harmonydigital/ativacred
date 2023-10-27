@@ -203,4 +203,7 @@ footer .content-text {
         max-width: 80%;
         margin: 0 auto;
     }
+    .sub-foot ul li a {
+        font-size: 9px;
+    }
 }
