@@ -352,8 +352,7 @@ initapp=()=>{
                 </div>
                 <div class='portfolio' id='portfolio'  >
                 <div class='content-text'>
-                <h2>Depoimento de pessoas
-                que também reativaram a ter <strong>crédito.</strong></h2>
+                <h2>Depoimento de pessoas que também voltaram a ter<strong>crédito.</strong></h2>
              </div>
                 <div class='tabs-portfolio'>
                 
@@ -361,151 +360,28 @@ initapp=()=>{
                          <div class="swiper tecnologia">
                             <div class="swiper-wrapper">
                                <div class="swiper-slide">
-                                  <div class='overlaygallery'>
-                                     <div class='text-content'>
-                                        <span>
-                                        <i class="fa-regular fa-heart"></i>
-                                        </span>
-                                        <div>
-                                           <h4>Web Site Intellectex</h4>
-                                           <p>App Institucional com descrição dos serviços prestados.</p>
-                                           <a class='get-site' target='_blank' href='https://intellectx.com.br/'>
-                                           visite este site
-                                           <i class="fa-solid fa-arrow-right"></i>
-                                           </a>
-                                        </div>
-                                        <span>
-                                        <i class="fa-solid fa-chevron-down"></i>
-                                        </span>
-                                     </div>
-                                  </div>
+                                  
                                   <img class='logo' src='assets/img/intellectex.png'>
                                </div>
                                <div class="swiper-slide">
-                                  <div class='overlaygallery'>
-                                     <div class='text-content'>
-                                        <span>
-                                        <i class="fa-regular fa-heart"></i>
-                                        </span>
-                                        <div>
-                                           <h4>E-commerce Tudo Praela</h4>
-                                           <p>Loja Woocommerce integração de pagamentos e calculo de frete.</p>
-                                           <a class='get-site' target='_blank' 
-                                              href='https://tudopraela.infinityfreeapp.com/'>visite este site
-                                           <i class="fa-solid fa-arrow-right"></i>
-                                           </a>
-                                        </div>
-                                        <span>
-                                        <i class="fa-solid fa-chevron-down"></i>
-                                        </span>
-                                     </div>
-                                  </div>
+                                   
                                   <img class='logo' src='assets/img/tudopraela.png'>
                                </div>
-                               <div class="swiper-slide">
-                                  <div class='overlaygallery'>
-                                     <div class='text-content'>
-                                        <span>
-                                        <i class="fa-regular fa-heart"></i>
-                                        </span>
-                                        <div>
-                                           <h4>Web Site Hotel</h4>
-                                           <p>app capta e armazena dados de pessoas para reservas de apartamentos na praia.</p>
-                                           <a class='get-site' target='_blank' 
-                                              href='https://sundaystore.infinityfreeapp.com/'>visite este site
-                                           <i class="fa-solid fa-arrow-right"></i>
-                                           </a>
-                                        </div>
-                                        <span>
-                                        <i class="fa-solid fa-chevron-down"></i>
-                                        </span>
-                                     </div>
-                                  </div>
+                               <div class="swiper-slide"> 
                                   <img class='logo' src='assets/img/modelo.png'>
                                </div>
                                <div class="swiper-slide">
-                                  <div class='overlaygallery'>
-                                     <div class='text-content'>
-                                        <span>
-                                        <i class="fa-regular fa-heart"></i>
-                                        </span>
-                                        <div>
-                                           <h4>Web Site landing page Grupo Vip</h4>
-                                           <p>app capta e armazena dados de pessoas e as conecta a lista vip.</p>
-                                           <a class='get-site' target='_blank' 
-                                              href='https://harmonydigital.github.io/outlabs/'>visite este site
-                                           <i class="fa-solid fa-arrow-right"></i>
-                                           </a>
-                                        </div>
-                                        <span>
-                                        <i class="fa-solid fa-chevron-down"></i>
-                                        </span>
-                                     </div>
-                                  </div>
+                                   
                                   <img class='logo' src='assets/img/modelo2.png'>
                                </div>
                                <div class="swiper-slide">
-                                  <div class='overlaygallery'>
-                                     <div class='text-content'>
-                                        <span>
-                                        <i class="fa-regular fa-heart"></i>
-                                        </span>
-                                        <div>
-                                           <h4>Web Site landing page Cartão</h4>
-                                           <p>app realiza cadastro de pessoas e armazena dados para cartão de crédito e envio de publicidade.</p>
-                                           <a class='get-site' target='_blank' 
-                                              href='https://harmonydigital.github.io/registercard/'>visite este site
-                                           <i class="fa-solid fa-arrow-right"></i>
-                                           </a>
-                                        </div>
-                                        <span>
-                                        <i class="fa-solid fa-chevron-down"></i>
-                                        </span>
-                                     </div>
-                                  </div>
-                                  <img class='logo' src='assets/img/modelo1.png'>
+                                   <img class='logo' src='assets/img/modelo1.png'>
                                </div>
                                <div class="swiper-slide">
-                                  <div class='overlaygallery'>
-                                     <div class='text-content'>
-                                        <span>
-                                        <i class="fa-regular fa-heart"></i>
-                                        </span>
-                                        <div>
-                                           <h4>App Delivery na Praia</h4>
-                                           <p>app realiza pedidos e entrega ao restaurante em tempo real na praia.</p>
-                                           <a class='get-site' target='_blank' 
-                                              href='https://harmonydigital.github.io/beachbar/'>visite este site
-                                           <i class="fa-solid fa-arrow-right"></i>
-                                           </a>
-                                        </div>
-                                        <span>
-                                        <i class="fa-solid fa-chevron-down"></i>
-                                        </span>
-                                     </div>
-                                  </div>
-                                  <img class='logo' src='assets/img/modelo3.png'>
+                                   <img class='logo' src='assets/img/modelo3.png'>
                                </div>
                                <div class="swiper-slide">
-                                  <div class='overlaygallery'>
-                                     <div class='text-content'>
-                                        <span>
-                                        <i class="fa-regular fa-heart"></i>
-                                        </span>
-                                        <div>
-                                           <h4>App ADM Pedidos na Praia</h4>
-                                           <p>app gerência pedidos em tempo real, calcula mostra faturamento do dia.</p>
-                                           <a class='get-site' target='_blank' href='https://harmonydigital.github.io/admbeach/'>
-                                           visite este site
-                                           <i class="fa-solid fa-arrow-right"></i>
-                                           </a>
-                                        </div>
-                                        <span>
-                                        <i class="fa-solid fa-chevron-down"></i>
-                                        </span>
-                                     </div>
-                                  </div>
-                                  <img class='logo' src='assets/img/modelo4.png'>
+                                   <img class='logo' src='assets/img/modelo4.png'>
                                </div>
                             </div>
                             <div class="swiper-pagination"></div>
