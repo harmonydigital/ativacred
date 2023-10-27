@@ -290,7 +290,7 @@ initapp=()=>{
                                     <div class='card'>
                                     <div class='card-header'>
                                     <div class='tooltip blue'>
-                                    1
+                                    3
                                     </div>
                                     </div>
                                     <div class='card-main'>
@@ -350,18 +350,13 @@ initapp=()=>{
                      </div>
                   </div>
                 </div>
-                <div class='portfolio' id='portfolio' style="display: none;">
-                <div class='text-content'>
-                   <span class='title'></span>
-                   <h3>Galeria Portfólio</h3>
-                </div>
+                <div class='portfolio' id='portfolio'  >
+                <div class='content-text'>
+                <h2>Depoimento de pessoas
+                que também reativaram a ter <strong>crédito.</strong></h2>
+             </div>
                 <div class='tabs-portfolio'>
-                   <div class="tab">
-                      <button class="tablinks" onclick="openCity(event, 'apps')">Tecnologia</button>
-                      <button class="tablinks" onclick="openCity(event, 'brand')">Branding</button>
-                      <button class="tablinks" onclick="openCity(event, 'social')">Social Media</button>
-                   </div>
-                   <div id="apps" class="tabcontent">
+                
                       <div class='slide' id='gallery'>
                          <div class="swiper tecnologia">
                             <div class="swiper-wrapper">
@@ -517,101 +512,12 @@ initapp=()=>{
                          </div>
                       </div>
                    </div>
-                   <div id="brand" class="tabcontent">
-                     <div class='slide' id='brand'>
-                        <!-- Swipesr -->
-                        <div class="swiper mySwiper">
-                           <div class="swiper-wrapper">
-
-
-                              <div class="swiper-slide">
-                                 <div class='overlaygallery'>
-                                       <div class='text-content'>
-                                       <span>
-                                       <i class="fa-regular fa-heart"></i>
-                                       </span>
-                                       <div>
-                                             <h4>Branding app Quero pizza</h4>
-                                             <p>WebApp Restaurante Quero Pizza delivery.</p>
-                                             <a class='get-site' target='_blank' 
-                                                href='https://harmonydigital.github.io/queropizza/'>visite este site
-                                             <i class="fa-solid fa-arrow-right"></i>
-                                             </a>
-                                       </div>
-                                       <span>
-                                       <i class="fa-solid fa-chevron-down"></i>
-                                       </span>
-                                       </div>
-                                    </div>
-                                 <img class='logo' src='assets/img/produtos/brand/brand-queropizza.png'>
-                              </div>
-
-                              <div class="swiper-slide">
-                                 <div class='overlaygallery'>
-                                         <div class='text-content'>
-                                         <span>
-                                         <i class="fa-regular fa-heart"></i>
-                                         </span>
-                                         <div>
-                                             <h4>Brand TUDOPRAELA.COM.BR</h4>
-                                             <p>Padrões de design de marca para e-commerce Tudo pra ela.</p>
-                                             <a class='get-site' target='_blank' 
-                                                 href='https://tudopraela.infinityfreeapp.com/'>visite este site
-                                             <i class="fa-solid fa-arrow-right"></i>
-                                             </a>
-                                         </div>
-                                         <span>
-                                         <i class="fa-solid fa-chevron-down"></i>
-                                         </span>
-                                         </div>
-                                     </div>
-                                 <img class='logo' src='assets/img/produtos/brand/sacola-tudopraela.png'>
-                              </div>
-         
-                              <div class="swiper-slide">
-                                 <div class='overlaygallery'>
-                                         <div class='text-content'>
-                                         <span>
-                                         <i class="fa-regular fa-heart"></i>
-                                         </span>
-                                         <div>
-                                             <h4>Brand Reservei</h4>
-                                             <p>Padrões de design de marca para app de reservas.</p>
-                                             <a class='get-site' target='_blank' 
-                                                 href='http://sundaystore.infinityfreeapp.com/'>visite este site
-                                             <i class="fa-solid fa-arrow-right"></i>
-                                             </a>
-                                         </div>
-                                         <span>
-                                         <i class="fa-solid fa-chevron-down"></i>
-                                         </span>
-                                         </div>
-                                     </div>
-                                 <img class='logo' src='assets/img/produtos/brand/brand-reservei.png'>
-                              </div>
-                          
-                           </div>
-                           <div class="swiper-pagination"></div>
-                        </div>
-                     </div>
+               
                   </div>
-                   <div id="social" class="tabcontent">
-                      <div class='slide' id='gallery'>
-                         <!-- Swipesr -->
-                         <div class="swiper mySwiper">
-                            <div class="swiper-wrapper">
-                               <div class="swiper-slide"><img class='logo' src='assets/img/produtos/socialmedia/mentoria_cacino.png'></div>
-                               <div class="swiper-slide"><img class='logo' src='assets/img/produtos/socialmedia/media.png'></div>
-                               <div class="swiper-slide"><img class='logo' src='assets/img/produtos/socialmedia/media1.png'></div>
-                               <div class="swiper-slide"><img class='logo' src='assets/img/produtos/socialmedia/media2.png'></div>
-                               <div class="swiper-slide"><img class='logo' src='assets/img/produtos/socialmedia/media3.png'></div>
-                               <div class="swiper-slide"><img class='logo' src='assets/img/produtos/socialmedia/media4.png'></div>
-                            </div>
-                            <div class="swiper-pagination"></div>
-                         </div>
-                      </div>
-                   </div>
-                </div>
+                   
+                   
+           
+            
              </div>
 
 
