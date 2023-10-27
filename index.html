@@ -32,7 +32,7 @@
 <body>
     <div id="dev"></div>
     <div id="app"></div>
-    <div class='contact' id='contact'>
+    <div class='contact' id='contact' style="display: none;">
       <div id='returnSend'>
         <div class="container">
           <h3>Obrigado!</h3>
@@ -76,23 +76,57 @@
     
         <div class='display'> 
           <div class='content-text'>
-            <div class="footer-logo" style="display: none;">
-         
-              </div>
-               
 
-              <div class='social-f'>
-                <a class='' href='https://www.instagram.com/harmonydigitalflow/'  target="_blank">    
-                    <i class="fa-brands fa-instagram"></i>
-                </a>
+              <div class="footer-high" >
+                <div class="container" >
+
+                 
+
+                  <div class="card">
+                    <div class="card-header">
+                       <img class="icon" src="assets/img/flag-icon.png">
+                    </div>
+                    <div class="card-main">
+                       <h5>  
+                        Atendimento Personalizado
+                       </h5>
+                       <p>
+                        Resolva e volte a ter crédito
+                       </p>
+                    </div> 
+                  </div>
+                  <div class="card">
+                    <div class="card-header">
+                       <img class="icon" src="assets/img/flag-icon.png">
+                    </div>
+                    <div class="card-main">
+                       <h5>  
+                        SITE 100% SEGURO
+                       </h5>
+                       <p>
+                        Site com Certificado SSL 
+                       </p>
+                    </div> 
+                  </div>
+                  <div class="card">
+                    <div class="card-header">
+                       <img class="icon" src="assets/img/flag-icon.png">
+                    </div>
+                    <div class="card-main">
+                       <h5>  
+                        Google Navegação segura
+                       </h5>
+                       <p>
+                        Site com Certificado SSL 
+                       </p>
+                    </div> 
+                  </div>
+
+                </div>
+              </div>
                 
-                <a class='' href="https://www.linkedin.com/in/harmony-digital/" target="_blank">
-                  <i class="fa-brands fa-linkedin-in"></i>
-                </a>
-                <a class='' href="https://github.com/harmonydigital" target="_blank" > 
-                    <i class="fa-brands fa-github"></i>
-                </a>
-            </div>
+
+             
               <h2 style="display: none;">ative a criatividade, comece algo novo</br>  agora mesmo...</h2>
               <a class='btn-down' style="display: none;" href='#top'>
                 <i class="fa-solid fa-chevron-up"></i>
@@ -101,11 +135,18 @@
 
           <div class="nav-f">
             <ul>
-              
-             
               <li>
-                  <a href='#contact'>Contato</a>
+                <a href='#contact'>Inicio </a>
+            </li>
+            <li>
+                <a href='#contact'>Vantagens</a>
+            </li>
+              <li>
+                  <a href='#contact'>Passo a Passo</a>
               </li>
+              <li>
+                <a href='#contact'>Legislação</a>
+            </li>
               <li style="display: none;">
                   <a class='btn primary convert-btn' href="">
                       <span style="font-weight: 600;">55+ 12 99802 - 1517</span>
@@ -120,10 +161,21 @@
               </li>
           </ul>          
         </div>
-
+        <div class='social-f'  >
+          <a class='' href='#'  target="_blank">    
+              <i class="fa-brands fa-instagram"></i>
+          </a>
+          
+          <a class='' href="#" target="_blank">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+          
+      </div>
         </div>
 
-      
+      <div class="sub-foot">
+        copyright © PRIANTIEASSOCIADOS
+      </div>
   </footer>
 
   
@@ -230,60 +282,8 @@ jQuery('a[href^=#]').on('click', function(e){
     closeMenu()
 
 });
-</script>
-<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
-
+</script> 
 <script src="assets/components/menu/menu.js"></script>
-<script type="module">
-  // import { initializeApp } from "firebase/app";
- const formMsg=document.querySelector('.formMsg')
-
  
- const firebaseConfig = {
-      apiKey: "AIzaSyD2MRtSy_pVM-V7RSyJjLoQWTnLlSahKv4",
-      authDomain: "sitecontact-ac09d.firebaseapp.com",
-      projectId: "sitecontact-ac09d",
-      storageBucket: "sitecontact-ac09d.appspot.com",
-      messagingSenderId: "611875526528",
-      appId: "1:611875526528:web:20781c50abe3e6a6ccd365"
-    }; 
-
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig); 
-
-  // Initialize Cloud Firestore and get a reference to the service
-  const db = firebase.firestore();
-
-   
- formMsg.addEventListener('submit',(event)=>{
-  console.log('submit')
-  
-  event.preventDefault() 
- 
-
-  var datamsg=[{
-    nome:iname.value,
-    email:imail.value,
-    numero:iwhats.value,
-    mensagem:imsg.value
-  }] 
-
-
-  if(iname.value.length>0){
-    console.log('')
-  }
- 
-  db.collection('mensagens').doc(relogio()).set({
-    nome:iname.value,
-    email:imail.value,
-    numero:iwhats.value,
-    mensagem:imsg.value
-  }) 
-  setTimeout(() => {
-    getAlertSend()
-  }, 2000);
- })
-</script>
 </body>
 </html>

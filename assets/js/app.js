@@ -160,7 +160,7 @@ initapp=()=>{
                            </div>
                      <div class='container'>
                         <div>
-                           <img class='icon' src='assets/img/persona2.png'>
+                           <img class='persona' src='assets/img/persona2.png'>
                         </div>
                         
                            <div class='card-container'>

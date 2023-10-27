@@ -421,6 +421,7 @@ img {
     }
 }
  @media(min-width:768px){
+    
     .bread .container {
         display: flex;
         max-width: 85%;
