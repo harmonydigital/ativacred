@@ -427,7 +427,7 @@ img {
     
     .bread .container {
         display: flex;
-        max-width: 85%;
+        max-width: 79%;
         margin: 0 auto;
         justify-content: space-around;
     }
