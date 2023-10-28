@@ -4,7 +4,8 @@ footer .display {
     height: auto;
     padding: 30px 0;
     margin: 20px 0 0;
- display:block
+ display:block;
+ min-width: 100%;
 }
 footer .sub-foot span:first-child {
     margin: 20px auto;
@@ -19,7 +20,7 @@ footer .sub-foot span:first-child {
 }
 
 .sub-foot {
-    background: #01013d;
+    background: #27354A;
     color: #a1c6ff;
     text-align: center;
     padding: 25px 0;
@@ -42,7 +43,7 @@ footer .sub-foot span:first-child {
 }
 .footer-high .container .card h5 {
      
-    color: white;
+    color: #B2D1FF;
     text-align: center;
     font-size: 14px;
     text-transform:uppercase ;
@@ -156,6 +157,7 @@ footer .content-text {
     }
     footer .display .content-text h2{
         width: inherit;
+        font-size: 29px;
        
     }
     footer .display {
