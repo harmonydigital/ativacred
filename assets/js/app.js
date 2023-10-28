@@ -278,7 +278,7 @@ initapp=()=>{
                                        </div>
                                        <div class='card-main'>
                                           <h5>  
-                                             Reabilitação de crédito
+                                          Faça seu cadastro
                                           </h5>
                                           <p>
                                              Resolva e volte a comprar
@@ -295,7 +295,7 @@ initapp=()=>{
                                        </div>
                                        <div class='card-main'>
                                           <h5>  
-                                             Reabilitação de crédito
+                                          Escolha a dívida a ser quitada
                                           </h5>
                                           <p>
                                              Resolva e volte a comprar
@@ -311,7 +311,7 @@ initapp=()=>{
                                     </div>
                                     <div class='card-main'>
                                        <h5>  
-                                          Reabilitação de crédito
+                                          ...
                                        </h5>
                                        <p>
                                           Resolva e volte a comprar
@@ -328,7 +328,7 @@ initapp=()=>{
                                  </div>
                                     <div class='card-main'>
                                        <h5>  
-                                          Reabilitação de crédito
+                                          Pronto! Agora clique para atendimento
                                        </h5>
                                        <p>
                                           Resolva e volte a comprar
