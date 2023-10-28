@@ -317,6 +317,7 @@ img {
      padding: 0;
      background-repeat: no-repeat;
      background-position: 0 -70px;
+     display: none;
 }
  .display .content-text h2 {
      font-weight: 300;
