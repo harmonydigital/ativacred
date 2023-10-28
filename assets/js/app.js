@@ -341,34 +341,11 @@ initapp=()=>{
                               </div>
                         </div>
                      </div>
-                  <div class='harmonyabout' id='about' style='display:none;'>
-                     <div class='container-flex'>
-                           <div class='content-text'>
-                           <span class='title'></span>
-                           <h2>produtos
-                           para pessoas,
-                           como eu e você.</h2>
-                           <a class='anchor btn primary convert-btn h-xs' href='#about'>
-                           <span>Fale comigo</span>
-                                 <i class="fa-brands fa-whatsapp"></i>
-                              </a>
-                           </div>
-
-                           <div>
-                              <p>Harmony se traduz na eficiente interação entre produtos e pessoas.
-                              </br></br>Somos a estreita relação do homem e tecnologia, amamos criar soluções reais para tornar a vida de pessoas ainda
-                              melhor.
-                              </br></br>Unimos um grupo de profissionais do Design, para conversas sobre o comportamento humano e como a interação de alguns produtos podem ser tão relevantes, assim projetar novos modelos e testar novas soluções.
-                              </br></br>Aqui tudo começa na relação de pessoa para pessoa, criamos uma conexão com o interlocutor e então podemos entender como o Design pode solucionar e otimizar nossa vida enquanto seres humanos.
-                              Veja o que fizemos até aqui, e crie algo novo você também..</p>
-                           </div>
-                     
-                     </div>
-                  </div>
+                   </div>
                 </div>
                 <div class='portfolio'  >
                 <div class='content-text'>
-                <h2>Depoimento de pessoas que também voltaram a ter<strong>crédito.</strong></h2>
+                <h2>Depoimento de pessoas que também voltaram a ter <strong>crédito.</strong></h2>
              </div>
                 <div class='tabs-portfolio'>
                 
