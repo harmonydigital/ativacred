@@ -49,21 +49,36 @@ initapp=()=>{
                            <div class='dropdown'>
                               <ul>
                                  <li>
-                                    <a href='#' target='_blank' >Reabilita Crédito <i class="fa-solid fa-arrow-right"></i></a>
+                                    <a href='#' target='_blank' >Consulta CPF Cartório<i class="fa-solid fa-arrow-right"></i></a>
+                                 </li>
+                                 <li>
+                                    <a href='#' target='_blank' >Consulta CPF Serasa<i class="fa-solid fa-arrow-right"></i></a>
                                  </li>
                                 
                               </ul>
                            </div>
                         </li>
                         <li>
-                           <a href='#vantagens'>Vantagens</a>
+                           <a href='#benfits'>Vantagens</a>
                         </li>
                         <li>
-                        <a href='#'>Passo a passo</a>
+                        <a href='#steps'>Passo a passo</a>
                      </li>
-                     <li>
-                        <a href='#'>Legislação</a>
-                     </li>
+                  
+                     <li class='iten-dropdown' >
+                     <a href=' javascript:void(0)'>Legislação</a>
+                     <div class='dropdown'>
+                        <ul>
+                           <li>
+                              <a href='#' target='_blank' >Lei <i class="fa-solid fa-arrow-right"></i></a>
+                           </li>
+                           <li>
+                              <a href='#' target='_blank' >Lei<i class="fa-solid fa-arrow-right"></i></a>
+                           </li>
+                          
+                        </ul>
+                     </div>
+                  </li>
                      
                         
                         
@@ -151,7 +166,7 @@ initapp=()=>{
 
 
                 </div>
-                  <div id='#vantagens' class='highlights'>
+                  <div id='benfits' class='highlights'>
                      <div class='content-text'>
                               <h2>
                               Mais <strong>vantagens</strong> para você Reativar seu <strong>Crédito</strong> 
@@ -170,10 +185,11 @@ initapp=()=>{
                                  </div>
                                  <div class='card-main'>
                                     <h5>  
-                                       Reabilitação de crédito
+                                    
+                                    Reabilitar seu crédito e voltar a fazer negócios
                                     </h5>
                                     <p>
-                                       Resolva e volte a comprar
+                                    Finanças estruturadas
                                     </p>
                                  </div>
                                  <div class='card-footer'>
@@ -189,7 +205,7 @@ initapp=()=>{
                                  </div>
                                  <div class='card-main'>
                                     <h5>  
-                                       Reabilitação de crédito
+                                    Processos confiáveis e transparentes
                                     </h5>
                                     <p>
                                        Resolva e volte a comprar
@@ -208,10 +224,10 @@ initapp=()=>{
                                  </div>
                                  <div class='card-main'>
                                     <h5>  
-                                       Reabilitação de crédito
+                                    Aumento da pontuação do Score de crédito
                                     </h5>
                                     <p>
-                                       Resolva e volte a comprar
+                                    Acelere seu negócio.
                                     </p>
                                  </div>
                                  <div class='card-footer'>
@@ -226,10 +242,10 @@ initapp=()=>{
                                  </div>
                                  <div class='card-main'>
                                     <h5>  
-                                       Reabilitação de crédito
+                                    Operação 100% humanizada
                                     </h5>
                                     <p>
-                                       Resolva e volte a comprar
+                                    Consultamos suas dívidas.
                                     </p>
                                  </div>
                                  <div class='card-footer'>
@@ -242,7 +258,7 @@ initapp=()=>{
                      </div>
                   </div>
 
-                  <div class='bread'>
+                  <div id='steps' class='bread'>
                      <div class='content-text'>
                         <h2>Passo a passo simples para você reativar seu crédito agora..</h2>
                      </div>
@@ -350,7 +366,7 @@ initapp=()=>{
                      </div>
                   </div>
                 </div>
-                <div class='portfolio' id='portfolio'  >
+                <div class='portfolio'  >
                 <div class='content-text'>
                 <h2>Depoimento de pessoas que também voltaram a ter<strong>crédito.</strong></h2>
              </div>
