@@ -462,7 +462,7 @@ img {
         display: none;
     }
      header {
-         position: absolute;
+         position: relative;
          background: white;
          box-shadow: inherit;
          border-radius: 0;
@@ -637,7 +637,12 @@ img {
          display: flex !important;
     }
      .display {
-         height: 83vh;
+      
+            height: 65vh;
+            width: 80%;
+            margin: 0 auto;
+            border-radius: 20px;
+       
     }
      .harmonyabout {
          margin: 0 auto;
