@@ -2,16 +2,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
 var btnMOdal=document.querySelectorAll('.activeModalPage')
 
 var arrBtn=Array.from(btnMOdal)

@@ -7,6 +7,9 @@ footer .display {
  display:block;
  min-width: 100%;
 }
+.footer-high img {
+    width: 35px;
+}
 footer .sub-foot span:first-child {
     margin: 20px auto;
     display: block;
@@ -51,7 +54,7 @@ footer .sub-foot span:first-child {
 }
 .footer-high .container .card p {
      
-    color: #8886b7;
+    color: #a9a6e1;
      text-align: center;
      margin: 0;
     padding: 5px 0;
@@ -84,9 +87,10 @@ footer ul li {
     display: flex;
 }
 footer .display .content-text h2 {
-    width: 220px;
+    width: auto;
     margin: 2rem auto 0;
-    font-size: 14px;
+    font-size: 32px;
+    color: #b9deff;
 }
 
 footer .display span.title {
