@@ -56,7 +56,7 @@ initapp=()=>{
                            </div>
                         </li>
                         <li>
-                           <a href='#'>Vantagens</a>
+                           <a href='#vantagens'>Vantagens</a>
                         </li>
                         <li>
                         <a href='#'>Passo a passo</a>
@@ -151,7 +151,7 @@ initapp=()=>{
 
 
                 </div>
-                  <div class='highlights'>
+                  <div id='#vantagens' class='highlights'>
                      <div class='content-text'>
                               <h2>
                               Mais <strong>vantagens</strong> para você Reativar seu <strong>Crédito</strong> 
@@ -360,28 +360,106 @@ initapp=()=>{
                          <div class="swiper tecnologia">
                             <div class="swiper-wrapper">
                                <div class="swiper-slide">
-                                  
-                                  <img class='logo' src='assets/img/intellectex.png'>
-                               </div>
+                                    <div class='card'>
+                                       <div class='card-main'>
+                                          <p>
+                                             Lorem Ipsum is simply dummy text of the printing and typesetting industry.  
+                                          </p>
+                                       </div>
+                                       <div class='card-footer'>
+                                          <img class='avatar' src='assets/img/avatar.png'>
+                                          <h6>Adriado silveira</h6>
+                                       </div>   
+                                    </div>
+                                 </div>
                                <div class="swiper-slide">
-                                   
-                                  <img class='logo' src='assets/img/tudopraela.png'>
+                                 <div class='card'>
+                                    <div class='card-main'>
+                                       <p>
+                                          Lorem Ipsum is simply dummy text of the printing and typesetting industry.  
+                                       </p>
+                                    </div>
+                                    <div class='card-footer'>
+                                       <img class='avatar' src='assets/img/avatar2.png'>
+                                       <h6>Julia Silva</h6>
+                                    </div>   
+                                 </div>
                                </div>
+
                                <div class="swiper-slide"> 
-                                  <img class='logo' src='assets/img/modelo.png'>
+                                  
+                                 <div class='card'>
+                                    <div class='card-main'>
+                                       <p>
+                                          Lorem Ipsum is simply dummy text of the printing and typesetting industry.  
+                                       </p>
+                                    </div>
+                                    <div class='card-footer'>
+                                       <img class='avatar' src='assets/img/avatar.png'>
+                                       <h6>Adriado silveira</h6>
+                                    </div>   
+                                 </div>
+
                                </div>
                                <div class="swiper-slide">
                                    
-                                  <img class='logo' src='assets/img/modelo2.png'>
+                                 <div class='card'>
+                                    <div class='card-main'>
+                                       <p>
+                                          Lorem Ipsum is simply dummy text of the printing and typesetting industry.  
+                                       </p>
+                                    </div>
+                                    <div class='card-footer'>
+                                       <img class='avatar' src='assets/img/avatar2.png'>
+                                       <h6>Julia Silva</h6>
+                                    </div>   
+                                 </div>  
+                               
                                </div>
                                <div class="swiper-slide">
-                                   <img class='logo' src='assets/img/modelo1.png'>
+                                   
+                                 <div class='card'>
+                                    <div class='card-main'>
+                                       <p>
+                                          Lorem Ipsum is simply dummy text of the printing and typesetting industry.  
+                                       </p>
+                                    </div>
+                                    <div class='card-footer'>
+                                       <img class='avatar' src='assets/img/avatar.png'>
+                                       <h6>Adriado silveira</h6>
+                                    </div>   
+                                 </div>
+
                                </div>
                                <div class="swiper-slide">
-                                   <img class='logo' src='assets/img/modelo3.png'>
+                                   
+                                 <div class='card'>
+                                    <div class='card-main'>
+                                       <p>
+                                          Lorem Ipsum is simply dummy text of the printing and typesetting industry.  
+                                       </p>
+                                    </div>
+                                    <div class='card-footer'>
+                                       <img class='avatar' src='assets/img/avatar2.png'>
+                                       <h6>Julia Silva</h6>
+                                    </div>   
+                                 </div>
+
                                </div>
                                <div class="swiper-slide">
-                                   <img class='logo' src='assets/img/modelo4.png'>
+                                   
+                                 <div class='card'>
+                                    <div class='card-main'>
+                                       <p>
+                                          Lorem Ipsum is simply dummy text of the printing and typesetting industry.  
+                                       </p>
+                                    </div>
+                                    <div class='card-footer'>
+                                       <img class='avatar' src='assets/img/avatar.png'>
+                                       <h6>Adriado silveira</h6>
+                                    </div>   
+                                 </div>
+
                                </div>
                             </div>
                             <div class="swiper-pagination"></div>
