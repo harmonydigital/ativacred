@@ -1,3 +1,41 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var btnMOdal=document.querySelectorAll('.activeModalPage')
+
+var arrBtn=Array.from(btnMOdal)
+  
+arrBtn.map( (th)=>{
+    console.log(th)
+
+    th.addEventListener('click',function(){
+        alert('Obter Pagina',this.innerHTML)
+    })
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
 var btnConvert=btnGetMsg=document.querySelectorAll('.convert-btn') 
 const arr = Array.from(btnConvert);
 const modal=document.getElementById('modal')

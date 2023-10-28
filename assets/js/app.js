@@ -95,7 +95,7 @@ initapp=()=>{
                             </a>
                         </li>
                         <li>
-                     <a href='#' style="
+                     <a href='#' class='activeModalPage' style="
                      color: #516583;
                      text-transform: capitalize;
                      font-size: 11px;

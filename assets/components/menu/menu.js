@@ -8,7 +8,7 @@ menutoggleMenu=()=>{
 
 }   
 
-closeMenu=()=>{  navObj.removeAttribute('class') }   
+closeMenu=()=>{ if(navObj){ navObj.removeAttribute('class')} }   
 
 
 dropDownMenu=()=>{
