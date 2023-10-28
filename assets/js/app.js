@@ -142,7 +142,7 @@ initapp=()=>{
        
         </header>
 
-        <main> 
+        <main id='main'> 
                 <div class='display'  > 
                         <div class='content-text'>
                            <h1 >Reabilite seu</h1> 
