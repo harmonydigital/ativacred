@@ -168,14 +168,15 @@ img {
      top: 0;
      opacity: .8;
 }
- .controls button {
-     background: transparent;
-     border: 0;
-     width: 100px;
-     display: flex;
-     height: 45px;
-     padding: 30px 25px;
-     align-items: center;
+.controls button {
+    background: transparent;
+    border: 0;
+    width: 100px;
+    display: flex;
+    color: #062f6d;
+    height: 45px;
+    padding: 30px 25px;
+    align-items: center;
 }
  a.btn-down{
     align-items: center;
@@ -285,8 +286,9 @@ img {
      border: 1px solid;
      width: 250px;
      display: inline-flex;
-     background-color: #32FF90 !important;
-     background-image: linear-gradient(to right top, #ecb6e0, #54ffc6);
+     color:white;
+     background-color: #0054D2 !important;
+     /* background-image: linear-gradient(to right top, #ecb6e0, #54ffc6); */
      height: 50px;
      justify-content: center;
      align-items: center;

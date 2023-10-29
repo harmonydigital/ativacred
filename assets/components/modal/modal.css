@@ -10,7 +10,10 @@ display: none;
 left: 0;
 z-index: 999;
 }
- 
+div#modalpagcontain {
+    position: fixed;
+    z-index: 99999;
+}
 
 .modal-body{
     box-shadow: 0px 1px 0px #8886b7cf;
@@ -29,6 +32,16 @@ z-index: 999;
     left: 10px;
     
 
+}
+
+.cover h2 {
+    margin: 5px auto;
+    color: #0054D2;
+    font-size: 1.5rem;
+}
+.cover img {
+    width: 90px;
+    margin: 10px auto;
 }
 
 .modal-body h3 {
