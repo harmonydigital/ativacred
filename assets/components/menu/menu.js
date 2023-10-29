@@ -8,7 +8,7 @@ menutoggleMenu=()=>{
 
 }   
 
-closeMenu=()=>{ if(navObj){ navObj.removeAttribute('class')} }   
+closeMenu=()=>{   navObj.removeAttribute('class') }   
 
 
 dropDownMenu=()=>{
@@ -16,9 +16,9 @@ dropDownMenu=()=>{
       toogleDrop=(evt)=>{
             var thisDrop=evt.target.nextSibling.nextSibling
 
-            console.log(thisDrop)
+            console.log('>',thisDrop)
 
-            thisDrop.classList.toggle('show')
+            thisDrop.classList.toggle('.show')
             return console.log('drop',evt.target.nextSibling.nextSibling) 
 
          }

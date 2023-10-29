@@ -186,10 +186,10 @@ initapp=()=>{
                                  <div class='card-main'>
                                     <h5>  
                                     
-                                    Reabilitar seu crédito e voltar a fazer negócios
+                                    Reabilitar seu crédito e voltar a fazer negócios.
                                     </h5>
                                     <p>
-                                    Finanças estruturadas
+                                    Finanças estruturadas.
                                     </p>
                                  </div>
                                  <div class='card-footer'>
@@ -201,14 +201,14 @@ initapp=()=>{
                               
                               <div class='card'>
                                  <div class='card-header'>
-                                    <img class='icon' src='assets/img/flag-icon.png'>
+                                    <img class='icon' src='assets/img/flag-icon-confianc.png'>
                                  </div>
                                  <div class='card-main'>
                                     <h5>  
-                                    Processos confiáveis e transparentes
+                                    Processos confiáveis e transparentes.
                                     </h5>
                                     <p>
-                                       Resolva e volte a comprar
+                                       Resolva e volte a comprar.
                                     </p>
                                  </div>
                                  <div class='card-footer'>
@@ -220,11 +220,11 @@ initapp=()=>{
 
                               <div class='card'>
                                  <div class='card-header'>
-                                    <img class='icon' src='assets/img/flag-icon.png'>
+                                    <img class='icon' src='assets/img/flag-icon-grafic.png'>
                                  </div>
                                  <div class='card-main'>
                                     <h5>  
-                                    Aumento da pontuação do Score de crédito
+                                    Aumento da pontuação do Score de crédito.
                                     </h5>
                                     <p>
                                     Acelere seu negócio.
@@ -238,11 +238,11 @@ initapp=()=>{
                               </div>
                               <div class='card'>
                                  <div class='card-header'>
-                                    <img class='icon' src='assets/img/flag-icon.png'>
+                                    <img class='icon' src='assets/img/flag-icon-fil.png'>
                                  </div>
                                  <div class='card-main'>
                                     <h5>  
-                                    Operação 100% humanizada
+                                    Operação 100% humanizada.
                                     </h5>
                                     <p>
                                     Consultamos suas dívidas.

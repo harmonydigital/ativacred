@@ -28,6 +28,9 @@ a.whatsapi.convert-btn .tooltip {
     font-size: 10px;
     color: #af9d9d;
 }
+a.whatsapi svg {
+    color: #0054D2;
+}
 a.whatsapi {
     position: absolute;
     background: #FFD707;
