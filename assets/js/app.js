@@ -89,7 +89,7 @@ initapp=()=>{
                             </a>
                         </li>
                         <li >
-                            <a class='btn inline' href="https://github.com/harmonydigital/harmonywebsites" target='_blank'>
+                            <a class='btn inline' href="#" onclick='toggleLogin()' target='_blank'>
                                 <span>Entrar</span>
                                 <i class="fa-solid fa-arrow-right-to-bracket"></i>
                             </a>
@@ -120,7 +120,7 @@ initapp=()=>{
                <div class=''>  
                 <span>Busque restrições em seu CPF.<span>
                </div>
-               <div class=''>  
+               <div onclick='toggleLogin()' class=''>  
                <i class="fa-regular fa-user"></i>Entrar
                </div> 
                </div> 
