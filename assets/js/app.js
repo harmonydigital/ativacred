@@ -300,10 +300,10 @@ initapp=()=>{
                                        </div>
                                        <div class='card-main'>
                                           <h5>  
-                                          Faça seu cadastro
+                                          Busque pelo seu CPF
                                           </h5>
                                           <p>
-                                             Resolva e volte a comprar
+                                          Veja possiveis restrições
                                           </p>
                                        </div>
                                        
@@ -320,7 +320,7 @@ initapp=()=>{
                                           Escolha a dívida a ser quitada
                                           </h5>
                                           <p>
-                                             Resolva e volte a comprar
+                                          Equipe pronta para ajuda.
                                           </p>
                                        </div>
                                        
@@ -333,7 +333,7 @@ initapp=()=>{
                                     </div>
                                     <div class='card-main'>
                                        <h5>  
-                                          ...
+                                       Fale  conosco, agora.
                                        </h5>
                                        <p>
                                           Resolva e volte a comprar
@@ -350,10 +350,10 @@ initapp=()=>{
                                  </div>
                                     <div class='card-main'>
                                        <h5>  
-                                          Pronto! Agora clique para atendimento
+                                          Pronto! Clique para suporte
                                        </h5>
                                        <p>
-                                          Resolva e volte a comprar
+                                       Simples e rápido
                                        </p>
                                     </div>
                                      

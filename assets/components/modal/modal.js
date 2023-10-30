@@ -7,6 +7,7 @@ var arrBtn=Array.from(btnMOdal)
   
 
 
+var mousePos = {};
 
 
 var modalpagcontain=document.getElementById('modalpagcontain') 
@@ -34,7 +35,9 @@ var modl=`
 modalpagcontain.innerHTML+=modl
 
 toggleModalPag=()=>{
-    document.getElementById('mpag').classList.toggle('show')
+    var modalPag=document.getElementById('mpag').classList.toggle('show')
+    modalPag.style.top = mousePos.y + "px";
+    modalPag.style.position = "fixed";
 
 }
 namePage=document.getElementById('namePage')
