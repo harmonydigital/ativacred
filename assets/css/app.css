@@ -158,6 +158,10 @@ img {
      border-radius: 0px 0 34px 34px;
      box-shadow: 2px 4px 4px #cdcdcd;
 }
+.mvid {
+    display: flex;
+    justify-content: center;
+}
 ::-ms-input-placeholder { /* Edge 12-18 */
     color: #007bff;
   }

@@ -377,10 +377,19 @@ initapp=()=>{
 
 
                 <div class='portfolio'  >
-                <div class='content-text'>
-                  <h2>Veja  <strong>video</strong> Promocional crédito.</h2>
+                  <div class='content-text'>
+                     <h2>Veja  <strong>video</strong> Promocional crédito.</h2>
+                     
                   </div>
-                  </div>
+                  <div class='mvid'>
+                  
+                  <video width=" " controls>
+                  <source src="assets/img/videoCredito.mp4" type="video/mp4">
+                  <source src="mov_bbb.ogg" type="video/ogg">
+                  Your browser does not support HTML video.
+                  </video>
+                </div>
+                </div>
 
                 <div class='portfolio'  >
                 <div class='content-text'>
