@@ -6,6 +6,12 @@
      margin: 0;
      font-family: 'Montserrat', sans-serif;
 }
+div#modaldoc {
+    position: fixed;
+    z-index: 9999;
+    display: none; 
+}
+
 .searchapi,.searchapi >div {
     height: 33px;
     position: relative;
@@ -17,15 +23,15 @@ margin: 0;
      font-family: 'Montserrat', sans-serif;
 }
 .tooltip {
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     border-radius: 30px;
-    background: transparent;
+    background: #0054D2;
     display: flex;
     justify-content: center;
     align-items: center;
     border: 2px solid #0054D2;
-    color: #0054D2;
+    color: white;
     position: absolute;
     left: 0;
     margin-left: -40px !important;
@@ -469,7 +475,7 @@ img {
     .content-text h2{
         text-align: center !important;
         font-size: 2rem;
-        max-width: 600px;
+        max-width: 700px;
     }
 
     .h-sm {

@@ -181,7 +181,7 @@ initapp=()=>{
                   <div id='benfits' class='highlights'>
                      <div class='content-text'>
                               <h2>
-                              Mais <strong>vantagens</strong> para você Reativar seu <strong>Crédito</strong> 
+                              Conheça <strong>vantagens</strong> para você Reativar seu <strong>Crédito</strong> 
                               e voltar a investir.</h2>
                      
                            </div>
@@ -272,7 +272,7 @@ initapp=()=>{
 
                   <div id='steps' class='bread'>
                      <div class='content-text'>
-                        <h2>Passo a passo simples para você reativar seu crédito agora..</h2>
+                        <h2>Passo a passo <strong>simples</strong> para você reativar seu crédito agora..</h2>
                      </div>
 
                      <div class='container'>
