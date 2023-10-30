@@ -70,11 +70,20 @@ initapp=()=>{
                      <div class='dropdown'>
                         <ul>
                            <li>
-                              <a href='#' target='_blank' >Lei <i class="fa-solid fa-arrow-right"></i></a>
+                              <a href='#' target='_blank' >Lei nº 4.595 <i class="fa-solid fa-arrow-right"></i></a>
                            </li>
                            <li>
-                              <a href='#' target='_blank' >Lei<i class="fa-solid fa-arrow-right"></i></a>
+                              <a href='#' target='_blank' >Lei nº 8.078<i class="fa-solid fa-arrow-right"></i></a>
                            </li>
+                           <li>
+                              <a href='#' target='_blank' >Lei Complementar Nº 105<i class="fa-solid fa-arrow-right"></i></a>
+                           </li>
+                            <li> 
+                              <a href='#' target='_blank' >Artigo 43 da LEI Nº 8.078<i class="fa-solid fa-arrow-right"></i></a>
+                           </li>
+                           <li>
+                           <a href='#' target='_blank' >Artigo 5<i class="fa-solid fa-arrow-right"></i></a>
+                        </li>
                           
                         </ul>
                      </div>
