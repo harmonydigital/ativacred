@@ -2,20 +2,10 @@ const body=document.getElementsByTagName('body')[0]
 const msgDev=document.getElementById('dev')
  
 
-
-// body.innerHTML+=`
-//     <div style="
-//     text-align: center;
-//     margin: 60px;
-// ">
-//         <h1>Harmony Building...<h1>
-//         <p>Aplicação em desenvolvimento...</p>
-//     </div>
-
-// `
+ 
 msgDev.style.cssText='background:#00008f'
 
-if(1===1){
+if(1===21){
 msgDev.innerHTML=`
     <div style="
     text-align: center;
