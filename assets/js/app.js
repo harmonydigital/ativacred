@@ -18,7 +18,7 @@ relogio=()=>{
 }  
 gotop=()=>{
 
-   console.log('go')  
+ 
    window.scrollTo(0, 0);
 }
 initapp=()=>{
@@ -112,7 +112,15 @@ initapp=()=>{
                 <img class='h-sm' src='assets/img/prianti-logo.png' alt='..'></a>
                 <img class='h-xs' src='assets/img/logo-desk.png' alt='..'></a>
                 </div>
-                <div>...
+                <div style="
+               display: flex;
+                align-items: center;
+                margin: 20px;">
+                  <span style="
+                  color: #fff";>
+                  <i class="fa-regular fa-circle-question"></i>
+                  
+                  </span>
                 </div>
             </div>
              <div class='user-area'> 
@@ -132,9 +140,13 @@ initapp=()=>{
          <label>
          </label>
 
-          <div class=' '>
+          <div class='  position: relative; '>
 
-            <input type='' placeholder='Digite seu CPF'>
+            <input style="
+            position: absolute;
+            left: 0;
+            width: 96%;
+        " type='' placeholder='Digite seu CPF'>
       
           </div>
       </div>

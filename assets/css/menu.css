@@ -1,10 +1,11 @@
 .btn-menu img {
-    max-height: 30px;
+    max-height: 36px;
     position: relative;
     top: 4px;
 }
 .menu nav {
     width: 100%;
+    overflow: auto;
 }
 .menu nav ul { 
     justify-content: space-between;

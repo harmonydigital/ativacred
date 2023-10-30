@@ -40,10 +40,10 @@ toggleModalPag=()=>{
 namePage=document.getElementById('namePage')
 
 arrBtn.map( (th)=>{
-    console.log(th)
+ 
 
     th.addEventListener('click',function(e){
-        console.log(e.target.getAttribute('name'))
+         
         document.getElementById('mpag').classList.toggle('show')
 
         namePage.innerHTML=e.target.getAttribute('name')
