@@ -145,6 +145,18 @@ img {
      bottom: -56px;
      z-index: 0;
 }
+.btn.inline {
+    border: 1px solid blue;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    padding: 0 5px;
+    border-radius: 30px;
+    width: 80px;
+    justify-content: center;
+    color: blue;
+    font-weight: 600;
+}
  header {
      position: relative;
      background: blue;
