@@ -6,6 +6,11 @@
      margin: 0;
      font-family: 'Montserrat', sans-serif;
 }
+
+.modal,#modalCall{
+    display: none;
+}
+ 
 div#modaldoc {
     position: fixed;
     z-index: 9999;
@@ -18,6 +23,12 @@ div#modaldoc {
 }
 .searchapi >div {
 margin: 0;
+}
+div#modalCall {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
 }
  body{
      font-family: 'Montserrat', sans-serif;
@@ -157,6 +168,8 @@ img {
     color: blue;
     font-weight: 600;
 }
+
+ 
  header {
      position: relative;
      background: blue;

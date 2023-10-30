@@ -7,7 +7,7 @@ var arrBtn=Array.from(btnMOdal)
   
 
 
-var mousePos = {};
+  mousePos = {};
 
 
 var modalpagcontain=document.getElementById('modalpagcontain') 
@@ -58,7 +58,7 @@ arrBtn.map( (th)=>{
 
 var btnConvert=btnGetMsg=document.querySelectorAll('.convert-btn') 
 const arr = Array.from(btnConvert);
-const modal=document.getElementById('modal')
+const modal=document.getElementById('modalCall')
 const modalBody=document.getElementById('modal-body')
 
 var mousePos = {};
