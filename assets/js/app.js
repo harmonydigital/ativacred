@@ -89,10 +89,10 @@ initapp=()=>{
                             </a>
                         </li>
                         <li >
-                            <a class='btn inline' href="#" onclick='toggleLogin()' target='_blank'>
+                            <div class='btn inline' onclick='toggleLogin()' target='_blank'>
                                 <span>Entrar</span>
                                 <i class="fa-solid fa-arrow-right-to-bracket"></i>
-                            </a>
+                            </div>
                         </li>
                         <li>
                      <a href='#' class='activeModalPage' style="
@@ -356,10 +356,27 @@ initapp=()=>{
                      </div>
                    </div>
                 </div>
+
+                
+
+
+
+               
+
+
+
+
+
                 <div class='portfolio'  >
                 <div class='content-text'>
-                <h2>Depoimento de pessoas que também voltaram a ter <strong>crédito.</strong></h2>
-             </div>
+                  <h2>Veja  <strong>video</strong> Promocional crédito.</h2>
+                  </div>
+                  </div>
+
+                <div class='portfolio'  >
+                <div class='content-text'>
+                  <h2>Depoimento de pessoas que também voltaram a ter <strong>crédito.</strong></h2>
+                  </div>
                 <div class='tabs-portfolio'>
                 
                       <div class='slide' id='gallery'>
