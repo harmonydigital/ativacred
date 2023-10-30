@@ -158,8 +158,15 @@ img {
      border-radius: 0px 0 34px 34px;
      box-shadow: 2px 4px 4px #cdcdcd;
 }
+::-ms-input-placeholder { /* Edge 12-18 */
+    color: #007bff;
+  }
+  
+  ::placeholder {
+    color: #007bff;
+  }
  header .container-flx{
-     justify-content: initial;
+     justify-content: space-between;
 }
 .highlights h2 {
     font-size: 1.4rem;

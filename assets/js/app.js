@@ -140,14 +140,15 @@ initapp=()=>{
          <label>
          </label>
 
-          <div class='  position: relative; '>
-
+          <div class='input-group' class='  position: relative; '>
+            <span><i class="fa-regular fa-address-card"></i></span>
             <input style="
             position: absolute;
             left: 0;
             width: 96%;
-        " type='' placeholder='Digite seu CPF'>
-      
+        " type='number' placeholder='Digite seu CPF'>
+            <button><i class="fa-solid fa-arrow-right"></i></button>
+
           </div>
       </div>
 

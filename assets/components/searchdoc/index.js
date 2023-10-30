@@ -1,3 +1,42 @@
+
+
+
+
+
+
+
+var sinput=document.querySelector('.searchapi input')
+
+
+sinput.addEventListener('keyup',function(){
+    
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 var modalDoc=document.getElementById('modaldoc')
 
  
