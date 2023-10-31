@@ -214,7 +214,7 @@ initapp=()=>{
                                  </div>
                                  <div class='card-footer'>
                                     <button>
-                                       <i class="fa-solid fa-arrow-right"></i>
+                                    <i class="fa-regular fa-circle-check"></i>
                                     </button>
                                  </div>   
                               </div>
@@ -233,7 +233,7 @@ initapp=()=>{
                                  </div>
                                  <div class='card-footer'>
                                     <button>
-                                       <i class="fa-solid fa-arrow-right"></i>
+                                      <i class="fa-regular fa-circle-check"></i>
                                     </button>
                                  </div>   
                               </div>
@@ -252,7 +252,8 @@ initapp=()=>{
                                  </div>
                                  <div class='card-footer'>
                                     <button>
-                                       <i class="fa-solid fa-arrow-right"></i>
+                                       <i class="fa-regular fa-circle-check"></i>
+
                                     </button>
                                  </div>   
                               </div>
@@ -270,7 +271,8 @@ initapp=()=>{
                                  </div>
                                  <div class='card-footer'>
                                     <button>
-                                       <i class="fa-solid fa-arrow-right"></i>
+                                    <i class="fa-regular fa-circle-check"></i>
+
                                     </button>
                                  </div>   
                               </div>
