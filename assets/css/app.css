@@ -83,7 +83,7 @@ img {
 }
  .user-area {
      color: white;
-     margin: 5px 10px 20px;
+     margin: 5px 10px 30px;
      padding: 0;
 }
  .user-area span {
@@ -198,9 +198,14 @@ img {
      justify-content: space-between;
 }
 .highlights h2 {
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     text-transform: inherit;
     font-weight: 500;
+}
+.pesona{
+    max-width: 80%;
+    margin: 35px auto;
+    display: block;
 }
  .user-area .container-flx{
      justify-content: space-between;

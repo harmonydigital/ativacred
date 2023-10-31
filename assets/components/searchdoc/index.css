@@ -1,7 +1,10 @@
 .searchapi input {
     padding: 0 44px;
-    max-width: 56%;
+    max-width:70%;
     margin: 0 5%;
+    height: 65px;
+    display: flex;
+    align-items: center;
 }
 .input-group {
     display: flex;
@@ -12,22 +15,25 @@
     margin: 0;
     justify-content: space-between;
     padding: 0 10px;
+    display: flex;
+    align-items: center;
 }
 .input-group > span {
     color: blue;
     position: absolute;
     z-index: 999;
-    top: 46px;
+   
     width: 100%;
 }
 
 .input-group > span {
-    color: #7474b3;
+    color: #9b9be7;
     position: absolute;
     z-index: 999;
-    top: 0;
+  
     width: 20px;
-    margin: 18px 28px;
+    margin: 0px 20px;
+    font-size: 23px;
 }
 .input-group button {
     float: right;
@@ -39,7 +45,7 @@
     height: 30px;
     z-index: 99;
     right: 0;
-    margin: 10px 40px;
+    margin: 10px 25px;
     border: 0;
     color: #007bff;
     border-radius: 30px;
