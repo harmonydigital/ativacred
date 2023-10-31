@@ -103,8 +103,8 @@ initapp=()=>{
                                 <i class="fa-solid fa-arrow-right-to-bracket"></i>
                             </div>
                         </li>
-                        <li >
-                     <a class='activeModalPage' href='#' class='activeModalPage' style="
+                        <li>
+                     <a href='#' class='activeModalPage' style="
                      color: #516583;
                      text-transform: capitalize;
                      font-size: 11px;
@@ -121,14 +121,12 @@ initapp=()=>{
                 <img class='h-sm' src='assets/img/prianti-logo.png' alt='..'></a>
                 <img class='h-xs' src='assets/img/logo-desk.png' alt='..'></a>
                 </div>
-                <div style="
-               display: flex;
-                align-items: center;
-                margin: 20px;">
-                  <span style="
-                  color: #fff";>
+                <div style=" display: flex;  align-items: center;  margin: 20px;">
+                  <span >
+                  <a  style="  color: #fff"; href='#javascript' class="activeModalPage">
                   <i class="fa-regular fa-circle-question"></i>
-                  
+
+                  </a>
                   </span>
                 </div>
             </div>
