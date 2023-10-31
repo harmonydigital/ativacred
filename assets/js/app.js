@@ -70,16 +70,16 @@ initapp=()=>{
                      <div class='dropdown'>
                         <ul>
                            <li>
-                              <a href='#' target='_blank' >Lei nº 4.595 <i class="fa-solid fa-arrow-right"></i></a>
+                              <a href='https://legislacao.presidencia.gov.br/atos/?tipo=LEI&numero=4595&ano=1964&ato=840QTVU9UNVRVTf4c' target='_blank' >Lei nº 4.595 <i class="fa-solid fa-arrow-right"></i></a>
                            </li>
                            <li>
-                              <a href='#' target='_blank' >Lei nº 8.078<i class="fa-solid fa-arrow-right"></i></a>
+                              <a href='https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm' target='_blank' >Lei nº 8.078<i class="fa-solid fa-arrow-right"></i></a>
                            </li>
                            <li>
-                              <a href='#' target='_blank' >Lei Complementar Nº 105<i class="fa-solid fa-arrow-right"></i></a>
+                              <a href='https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp105.htm' target='_blank' >Lei Complementar Nº 105<i class="fa-solid fa-arrow-right"></i></a>
                            </li>
                             <li> 
-                              <a href='#' target='_blank' >Artigo 43 da LEI Nº 8.078<i class="fa-solid fa-arrow-right"></i></a>
+                              <a href='https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm#:~:text=43.,sobre%20as%20suas%20respectivas%20fontes' target='_blank' >Artigo 43 da LEI Nº 8.078<i class="fa-solid fa-arrow-right"></i></a>
                            </li>
                            <li>
                            <a href='#' target='_blank' >Artigo 5<i class="fa-solid fa-arrow-right"></i></a>
