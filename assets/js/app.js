@@ -155,7 +155,7 @@ initapp=()=>{
             position: absolute;
             left: 0;
             width: 96%;
-        " type='number' placeholder='Digite seu CPF'>
+        " type='number' placeholder='Busque seu CPF'>
             <button><i class="fa-solid fa-arrow-right"></i></button>
 
           </div>

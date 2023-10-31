@@ -1,7 +1,7 @@
 .searchapi input {
     padding: 0 44px;
     max-width:70%;
-    margin: 0 5%;
+    margin: 0 ;
     height: 65px;
     display: flex;
     align-items: center;
@@ -32,7 +32,7 @@
     z-index: 999;
   
     width: 20px;
-    margin: 0px 20px;
+    margin: 0px 5px;
     font-size: 23px;
 }
 .input-group button {
