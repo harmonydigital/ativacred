@@ -82,7 +82,7 @@ initapp=()=>{
                               <a href='https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm#:~:text=43.,sobre%20as%20suas%20respectivas%20fontes' target='_blank' >Artigo 43 da LEI Nº 8.078<i class="fa-solid fa-arrow-right"></i></a>
                            </li>
                            <li>
-                           <a href='#' target='_blank' >Artigo 5<i class="fa-solid fa-arrow-right"></i></a>
+                           <a href='https://lgpd-brasil.info/capitulo_06/artigo_42' target='_blank' >ARTIGO 42 DA LEI LGPD <i class="fa-solid fa-arrow-right"></i></a>
                         </li>
                           
                         </ul>
