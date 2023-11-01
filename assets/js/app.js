@@ -108,14 +108,14 @@ initapp=()=>{
                             </div>
                         </li>
                         <li>
-                     <a href='#' class='activeModalPage' style="
+                     <button href='#' class='activeModalPage' style="
                      color: #516583;
                      text-transform: capitalize;
                      font-size: 11px;
                  ">Ajuda 
                      <i class="fa-regular fa-circle-question"></i>
 
-                     </a>
+                     </button>
                   </li>
                     </ul>
                 </nav>
@@ -127,10 +127,10 @@ initapp=()=>{
                 </div>
                 <div style=" display: flex;  align-items: center;  margin: 20px;">
                   <span >
-                  <a  style="  color: #fff"; href='#javascript' class="activeModalPage">
+                  <button  style="  color: #fff"; href='#javascript' class="activeModalPage">
                   <i class="fa-regular fa-circle-question"></i>
 
-                  </a>
+                  </button>
                   </span>
                 </div>
             </div>
