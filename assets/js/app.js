@@ -69,6 +69,10 @@ initapp=()=>{
                      <a href=' javascript:void(0)'>Legislação</a>
                      <div class='dropdown'>
                         <ul>
+                        <li>
+                        <a href='https://protestosp.com.br/' target='_blank' >CEMPROT <i class="fa-solid fa-arrow-right"></i></a>
+                     </li>
+                   
                            <li>
                               <a href='https://legislacao.presidencia.gov.br/atos/?tipo=LEI&numero=4595&ano=1964&ato=840QTVU9UNVRVTf4c' target='_blank' >Lei nº 4.595 <i class="fa-solid fa-arrow-right"></i></a>
                            </li>
