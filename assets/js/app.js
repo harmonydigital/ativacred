@@ -127,8 +127,8 @@ initapp=()=>{
                 </div>
                 <div style=" display: flex;  align-items: center;  margin: 20px;">
                   <span >
-                  <button  style="  color: #fff"; href='#javascript' class="activeModalPage">
-                  <i class="fa-regular fa-circle-question"></i>
+                  <button  style="color: #fff;background: transparent;border: 0;margin: 15px;"  class="activeModalPage">
+                     <i class="fa-regular fa-circle-question"></i>
 
                   </button>
                   </span>

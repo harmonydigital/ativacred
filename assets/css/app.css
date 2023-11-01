@@ -596,6 +596,7 @@ img {
      .display {
          background-position: inherit;
          background-image: url(../img/bg.png);
+         display: block;
     }
      .display .content-text {
          padding: 210px 0 0;
@@ -704,7 +705,7 @@ img {
      .display {
       
             height: 65vh;
-            width: 80%;
+            width: 85%;
             margin: 0 auto;
             border-radius: 20px;
        
