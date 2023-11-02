@@ -10,7 +10,20 @@
 .modal,#modalCall{
     display: none;
 }
- 
+.content-text {
+    padding: 50px 5px 0;
+    color: white;
+    text-align: left;
+}
+.content-text p {
+     
+    text-align: center;
+}
+.display .content-text h2 {
+     
+    color: white;
+     
+}
 div#modaldoc {
     position: fixed;
     z-index: 9999;
@@ -182,7 +195,7 @@ img {
      display: block;
      justify-content: space-between;
      align-items: center;
-     margin: 0 auto 15px;
+     margin: 0 auto 0;
      z-index: 999;
      border-radius: 0px 0 34px 34px;
      box-shadow: 2px 4px 4px #cdcdcd;
@@ -440,6 +453,7 @@ img {
      display: block;
      text-transform: uppercase;
      font-weight: 300;
+     color: white;
 }
  .harmonyabout .content-text {
      padding: 0;
@@ -463,6 +477,11 @@ img {
  @media(max-width:1024px){
      .contact-content-text{
          display: none;
+    }
+    .display {
+       
+        height: 38vh;
+        
     }
 }
  @media(max-width:767px){
@@ -602,7 +621,7 @@ img {
          padding: 210px 0 0;
     }
      .display .content-text h2 {
-         width: 340px;
+         width:160px;
          margin: 35px auto 0;
     }
 }
