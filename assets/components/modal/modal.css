@@ -10,6 +10,19 @@ display: none;
 left: 0;
 z-index: 999;
 }
+header .activeModalPage {
+    width: 25px;
+    background: transparent;
+    height: 25px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: 800;
+    border: 2px solid;
+    border-radius: 50px;
+    opacity: .7;
+}
 div#modalpagcontain,#modalLogin {
     position: fixed;
     z-index: 99999;

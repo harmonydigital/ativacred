@@ -1,14 +1,23 @@
 
 
 
+dataPag=[{
+    name:'ajuda',
+    content:'Conteúdo de ajuda'
+},{
+    name:'termos',
+    content:'Conteúdo de termos'
+},{
+    name:'privacidade',
+    content:'Conteúdo de privacidade'
+}]
+
+
 
 var btnMOdal=document.querySelectorAll('.activeModalPage') 
 var arrBtn=Array.from(btnMOdal)
   
-
-
-  mousePos = {};
-
+ 
   mousePos = {};
 
 var modalpagcontain=document.getElementById('modalpagcontain') 
@@ -23,7 +32,7 @@ var modl=`
 
     <div class=" ">    
     <h2> Pagina <span id='namePage'></span></h2>
-    <p>..</p>
+    <p id='content-text'>..</p>
 
     </div>
         
@@ -34,6 +43,25 @@ var modl=`
 ` 
   
 modalpagcontain.innerHTML+=modl
+
+
+
+
+
+
+innerContent=(namePg)=>{
+    var contenttext=document.getElementById('content-text') 
+    contenttext.innerHTML='ok'
+
+    console.log('arr',dataPag)
+
+    dataPag.map((el)=>{
+        if(namePg==el.name){
+            console.log(el.content)
+            contenttext.innerHTML=el.content
+        }
+    })
+}
 
 toggleModalPag=()=>{
 
@@ -49,13 +77,18 @@ toggleModalPag=()=>{
 namePage=document.getElementById('namePage')
 
 arrBtn.map( (th)=>{
- 
+    
+    console.log(th.name)
 
     th.addEventListener('click',function(e){
          
-        document.getElementById('mpag').classList.toggle('show')
-
+        document.getElementById('mpag').classList.toggle('show') 
         namePage.innerHTML=e.target.getAttribute('name')
+
+        var namePg=e.target.getAttribute('name')
+
+        innerContent(namePg)
+         
     })
 })
 

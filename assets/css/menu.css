@@ -6,6 +6,7 @@
 .menu nav {
     width: 100%;
     overflow: auto;
+    z-index: 99999999;
 }
 .menu nav ul { 
     justify-content: space-between;

@@ -49,7 +49,7 @@ initapp=()=>{
                            <div class='dropdown'>
                               <ul>
                                  <li>
-                                    <a href='#' target='_blank' >Consulta CPF Cartório<i class="fa-solid fa-arrow-right"></i></a>
+                                    <a href='https://protestosp.com.br/' target='_blank' >Consulta CPF Cartório<i class="fa-solid fa-arrow-right"></i></a>
                                  </li>
                                  <li>
                                     <a href='#' target='_blank' >Consulta CPF Serasa<i class="fa-solid fa-arrow-right"></i></a>
@@ -69,9 +69,7 @@ initapp=()=>{
                      <a href=' javascript:void(0)'>Legislação</a>
                      <div class='dropdown'>
                         <ul>
-                        <li>
-                        <a href='https://protestosp.com.br/' target='_blank' >CEMPROT <i class="fa-solid fa-arrow-right"></i></a>
-                     </li>
+                        
                    
                            <li>
                               <a href='https://legislacao.presidencia.gov.br/atos/?tipo=LEI&numero=4595&ano=1964&ato=840QTVU9UNVRVTf4c' target='_blank' >Lei nº 4.595 <i class="fa-solid fa-arrow-right"></i></a>
@@ -108,15 +106,14 @@ initapp=()=>{
                             </div>
                         </li>
                         <li>
-                     <button href='#' class='activeModalPage' style="
-                     color: #516583;
-                     text-transform: capitalize;
-                     font-size: 11px;
-                 ">Ajuda 
-                     <i class="fa-regular fa-circle-question"></i>
-
-                     </button>
-                  </li>
+                           <button name='ajuda' class='activeModalPage' style="
+                              color: #516583;
+                              text-transform: capitalize;
+                              font-size: 11px;
+                                 ">Ajuda 
+                              <i class="fa-regular fa-circle-question"></i>
+                           </button>
+                        </li>
                     </ul>
                 </nav>
             </div>
@@ -126,11 +123,13 @@ initapp=()=>{
                 <img class='h-xs' src='assets/img/logo-desk.png' alt='..'></a>
                 </div>
                 <div style=" display: flex;  align-items: center;  margin: 20px;">
-                  <span >
-                  <button  style="color: #fff;background: transparent;border: 0;margin: 15px;"  class="activeModalPage">
-                     <i class="fa-regular fa-circle-question"></i>
+                  
+                <a class='activeModalPage' name='ajuda' href='#contact'>
+                ?
 
-                  </button>
+               </a>
+
+                   
                   </span>
                 </div>
             </div>
