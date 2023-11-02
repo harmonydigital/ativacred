@@ -306,12 +306,25 @@ initapp=()=>{
                                        </div>
                                        </div>
                                        <div class='card-main'>
-                                          <h5>  
-                                          Busque pelo seu CPF
-                                          </h5>
+                                          <div class='title-flex'   >
+                                             <i class="fa-solid fa-money-check"></i>
+                                             <h5>  
+                                             Busque pelo seu CPF
+                                             </h5>
+                                          </div>
+
+                                        
                                           <p>
-                                          Veja possiveis restrições
+                                          Veja possiveis  restrições
                                           </p>
+                                          
+                                          <button class='btn circle'>
+                                          <i class="fa-solid fa-arrow-right"></i>
+                                          </button>
+
+ 
+
+
                                        </div>
                                        
                                     </div>      

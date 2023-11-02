@@ -6,7 +6,23 @@
      margin: 0;
      font-family: 'Montserrat', sans-serif;
 }
-
+.title-flex{
+    display: flex;
+    align-items: center; 
+}
+.title-flex svg{
+    color: #0054D2;
+    margin-right: 5px;
+}
+button.btn.circle {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0;
+}
 .modal,#modalCall{
     display: none;
 }
@@ -24,6 +40,20 @@
     color: white;
      
 }
+#steps .card p {
+    margin: 0;
+    font-size: 14px;
+    color: #8599AB;
+    font-weight: 500;
+}
+
+#steps .card-main {
+    
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+ 
 div#modaldoc {
     position: fixed;
     z-index: 9999;
@@ -737,7 +767,7 @@ img {
     }
     .menu nav ul li a {
         
-        font-size: 0.9rem;
+        font-size: 0.6rem;
     }
 }
 
