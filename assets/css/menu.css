@@ -3,10 +3,22 @@
     position: relative;
     top: 4px;
 }
+
+
+@media (max-width:768px) {
+    
+
 .menu nav {
     width: 100%;
     overflow: auto;
     z-index: 99999999;
+}
+}
+@media (min-width:768px) {
+       header nav{
+        width: 95% !important;
+       }
+
 }
 .menu nav ul { 
     justify-content: space-between;
