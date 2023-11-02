@@ -1,3 +1,68 @@
+ const loginSocial = document.getElementById('loginSocial')
+
+ var btns = document.querySelectorAll('.toggle-loginsocial')
+
+
+//converter objeto em arry
+
+
+ var arrayactive= Array.from(btns)
+ arrayactive.map((el)=>{
+    el.addEventListener('click', function(){
+
+
+        loginSocial.classList.toggle('show')
+    })
+ })
+
+
+ console.log(loginSocial)
+ console.log(btns)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 const mcont=document.getElementById('modalLogin')
 
 mcont.innerHTML=`
@@ -25,5 +90,5 @@ var mLogin = document.getElementById('mLogin')
  
 
 toggleLogin=()=>{
-    mLogin.classList.toggle('show')
+    loginSocial.classList.toggle('show')
 }

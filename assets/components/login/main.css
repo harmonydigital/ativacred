@@ -1,15 +1,25 @@
-.title-login {
+.login {
+    position: fixed;
+    height: 100vh;
+    z-index: 99999999999;
+    top: 0px;
+    background: #F1F1F1;
+    width: 100%;
+    display:none;
+}
+
+.login .title-login {
     text-align: center;
     margin-top: 40%;
 }
-button img {
+.login button img {
     margin-right: 5px;
 }
-button {
+.login button {
     font-weight: 600;
 }
 
-button.btn-google {
+.login button.btn-google {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,7 +32,7 @@ button.btn-google {
     color:#686868;
     /* margin: 20px ; */
 }
-button.btn-facebook {
+.login button.btn-facebook {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,10 +47,10 @@ button.btn-facebook {
     margin: 20px ;
 }
 
-form.formMsg .title-login > img {
+.login form.formMsg .title-login > img {
     width: 180px;
 }
-.form {
+.login .form {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -50,11 +60,11 @@ form.formMsg .title-login > img {
 
 
 @media(min-width:768px){
-    .title-login {
+    .login .title-login {
         
         margin-top: 10%;
     }
-    form.formMsg {
+    .login form.formMsg {
         max-width: 350px;
         margin: 0 auto;
     }

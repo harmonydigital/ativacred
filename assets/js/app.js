@@ -100,7 +100,7 @@ initapp=()=>{
                             </a>
                         </li>
                         <li >
-                            <div class='btn inline' onclick='toggleLogin()' target='_blank'>
+                            <div class='btn inline ' onclick='toggleLogin()' target='_blank'>
                                 <span>Entrar</span>
                                 <i class="fa-solid fa-arrow-right-to-bracket"></i>
                             </div>
