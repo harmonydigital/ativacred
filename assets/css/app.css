@@ -15,13 +15,13 @@
     margin-right: 5px;
 }
 button.btn.circle {
-    width: 18px;
-    height: 18px;
+    width: 30px;
+    height: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    right: 0;
+    position: relative;
+    float: right;
 }
 
 .modal,#modalCall{

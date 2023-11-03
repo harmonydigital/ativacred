@@ -295,7 +295,7 @@ initapp=()=>{
                      <div class='content-text'>
                         <h2>Passo a passo <strong>simples</strong> para você reativar seu crédito agora..</h2>
                      </div>
-
+ 
                      <div class='container'>
                         <div>
                            <img class='icon' src='assets/img/persona.png'>
@@ -310,8 +310,7 @@ initapp=()=>{
                                        </div>
                                        </div>
                                        <div class='card-main'>
-                                          <div class='title-flex'   >
-                                             <i class="fa-solid fa-money-check"></i>
+                                          <div class='title-flex'   > 
                                              <h5>  
                                              Busque pelo seu CPF
                                              </h5>
@@ -337,7 +336,7 @@ initapp=()=>{
                                        </div>
                                        <div class='card-main'>
                                           <h5>  
-                                          ENTENDA A SUA DIVIDA
+                                          Entenda sua dívida
                                           </h5>
                                           <p>
                                           Equipe pronta para ajuda.
@@ -353,9 +352,11 @@ initapp=()=>{
                                     </div>
                                     <div class='card-main'>
                                        <h5>  
-                                       LEIA O CONTRATO E ENTENDA  O PROCESSSO
+                                       Leia o contrato e entenda o processo
                                        </h5>
-                                       
+                                       <p>
+                                       <a hred='arquivo.pdf' target='_blank'>Clique </a> e faça download do pdf
+                                       </p>
                                     </div>
                                     
                                  </div>      
