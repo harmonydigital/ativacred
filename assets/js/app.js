@@ -50,7 +50,7 @@ initapp=()=>{
                               <ul>
                                
                                  <li>
-                                    <a href='#' class='getValidation' target='_blank' >Consulta CPF Serasa<i class="fa-solid fa-arrow-right"></i></a>
+                                    <a href='#contact' class='getValidation'  target='_blank' >Consulta CPF Serasa<i class="fa-solid fa-arrow-right"></i></a>
                                  </li>
                                  <li>
                                  <a href='https://protestosp.com.br/' target='_blank' >Consulta CPF Cartório<i class="fa-solid fa-arrow-right"></i></a>

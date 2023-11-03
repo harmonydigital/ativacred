@@ -602,14 +602,13 @@ button.activeModalPage {
          display: none;
     }
     div#validation {
-        background: #c9c9c9;
+        background: transparent;
         position: fixed;
         z-index: 999999;
         width: 100%;
         color: red;
         width: 80%;
-        left: 7%;
-        display: none;
+        left: 7%; 
         height: 400px;
     }
     div#validation  .user-area{

@@ -18,9 +18,11 @@ dropDownMenu=()=>{
             console.log('')
             var thisDrop=evt.target.nextSibling.nextSibling
  
+            if(thisDrop){
 
-            thisDrop.classList.toggle('show')
-            return console.log('drop',evt.target.nextSibling.nextSibling) 
+                  thisDrop.classList.toggle('show')
+                  return console.log('drop',evt.target.nextSibling.nextSibling) 
+            }
 
          }
 
