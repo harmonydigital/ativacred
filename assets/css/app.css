@@ -159,6 +159,14 @@ img {
      margin: 0 auto 50px;
      min-width: 100%;
 }
+div#validation {
+    background: white;
+    position: fixed;
+    z-index: 999999;
+    width: 100%;
+    display: none;
+    color: red;
+}
  a.get-site {
      margin: 0;
      display: flex;
@@ -505,13 +513,16 @@ img {
  a.btn-sucess svg {
      margin:5px;
 }
+button.activeModalPage {
+    border: 0 !important;
+}
  @media(max-width:1024px){
      .contact-content-text{
          display: none;
     }
     .display {
        
-        height: 38vh;
+        height: 55vh;
         
     }
 }
@@ -590,6 +601,20 @@ img {
      .user-area{
          display: none;
     }
+    div#validation {
+        background: #c9c9c9;
+        position: fixed;
+        z-index: 999999;
+        width: 100%;
+        color: red;
+        width: 80%;
+        left: 7%;
+        display: none;
+        height: 400px;
+    }
+    div#validation  .user-area{
+        display: inherit;
+   }
      header#top .container-flx div:first-child {
          order: 1;
     }
