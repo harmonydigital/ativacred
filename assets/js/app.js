@@ -317,11 +317,7 @@ initapp=()=>{
                                              </h5>
                                           </div>
 
-                                        
-                                          <p>
-                                          Veja possiveis  restrições
-                                          </p>
-                                          
+                                         
                                           <button class='btn circle'>
                                           <i class="fa-solid fa-arrow-right"></i>
                                           </button>
@@ -341,7 +337,7 @@ initapp=()=>{
                                        </div>
                                        <div class='card-main'>
                                           <h5>  
-                                          Escolha a dívida a ser quitada
+                                          ENTENDA A SUA DIVIDA
                                           </h5>
                                           <p>
                                           Equipe pronta para ajuda.
@@ -357,11 +353,9 @@ initapp=()=>{
                                     </div>
                                     <div class='card-main'>
                                        <h5>  
-                                       Fale  conosco, agora.
+                                       LEIA O CONTRATO E ENTENDA  O PROCESSSO
                                        </h5>
-                                       <p>
-                                          Resolva e volte a comprar
-                                       </p>
+                                       
                                     </div>
                                     
                                  </div>      
