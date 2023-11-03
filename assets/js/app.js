@@ -53,8 +53,12 @@ initapp=()=>{
                                     <a href='#contact' class='getValidation'  target='_blank' >Consulta CPF Serasa<i class="fa-solid fa-arrow-right"></i></a>
                                  </li>
                                  <li>
-                                 <a href='https://protestosp.com.br/' target='_blank' >Consulta CPF Cartório<i class="fa-solid fa-arrow-right"></i></a>
-                              </li>
+                                  <a href='https://protestosp.com.br/' target='_blank' >Consulta CPF Cartório<i class="fa-solid fa-arrow-right"></i></a>
+                                  </li>
+                                  <li>
+                                  <a href='https://sistema.fenixconsultas.com.br/login'    target='_blank' > Consulta do BACEN<i class="fa-solid fa-arrow-right"></i></a>
+                               </li>
+                               
                                 
                               </ul>
                            </div>
@@ -394,150 +398,8 @@ initapp=()=>{
 
 
 
-
-
-                <div class='portfolio'  >
-                  <div class='content-text'>
-                     <h2>Veja  <strong>video</strong> Promocional crédito.</h2>
-                     
-                  </div>
-                  <div class='mvid'>
-                  
-                  <video width=" " controls>
-                  <source src="assets/img/videoCredito.mp4" type="video/mp4">
-                  <source src="mov_bbb.ogg" type="video/ogg">
-                  Your browser does not support HTML video.
-                  </video>
-                </div>
-                </div>
-
-                <div class='portfolio'  >
-                <div class='content-text'>
-                  <h2>Depoimento de pessoas que também voltaram a ter <strong>crédito.</strong></h2>
-                  </div>
-                <div class='tabs-portfolio'>
-                
-                      <div class='slide' id='gallery'>
-                         <div class="swiper tecnologia">
-                            <div class="swiper-wrapper">
-                               <div class="swiper-slide">
-                                    <div class='card'>
-                                       <div class='card-main'>
-                                          <p>
-                                             Lorem Ipsum is simply dummy text of the printing and typesetting industry.  
-                                          </p>
-                                       </div>
-                                       <div class='card-footer'>
-                                          <img class='avatar' src='assets/img/avatar.png'>
-                                          <h6>Adriado silveira</h6>
-                                       </div>   
-                                    </div>
-                                 </div>
-                               <div class="swiper-slide">
-                                 <div class='card'>
-                                    <div class='card-main'>
-                                       <p>
-                                          Lorem Ipsum is simply dummy text of the printing and typesetting industry.  
-                                       </p>
-                                    </div>
-                                    <div class='card-footer'>
-                                       <img class='avatar' src='assets/img/avatar2.png'>
-                                       <h6>Julia Silva</h6>
-                                    </div>   
-                                 </div>
-                               </div>
-
-                               <div class="swiper-slide"> 
-                                  
-                                 <div class='card'>
-                                    <div class='card-main'>
-                                       <p>
-                                          Lorem Ipsum is simply dummy text of the printing and typesetting industry.  
-                                       </p>
-                                    </div>
-                                    <div class='card-footer'>
-                                       <img class='avatar' src='assets/img/avatar.png'>
-                                       <h6>Adriado silveira</h6>
-                                    </div>   
-                                 </div>
-
-                               </div>
-                               <div class="swiper-slide">
-                                   
-                                 <div class='card'>
-                                    <div class='card-main'>
-                                       <p>
-                                          Lorem Ipsum is simply dummy text of the printing and typesetting industry.  
-                                       </p>
-                                    </div>
-                                    <div class='card-footer'>
-                                       <img class='avatar' src='assets/img/avatar2.png'>
-                                       <h6>Julia Silva</h6>
-                                    </div>   
-                                 </div>  
-                               
-                               </div>
-                               <div class="swiper-slide">
-                                   
-                                 <div class='card'>
-                                    <div class='card-main'>
-                                       <p>
-                                          Lorem Ipsum is simply dummy text of the printing and typesetting industry.  
-                                       </p>
-                                    </div>
-                                    <div class='card-footer'>
-                                       <img class='avatar' src='assets/img/avatar.png'>
-                                       <h6>Adriado silveira</h6>
-                                    </div>   
-                                 </div>
-
-                               </div>
-                               <div class="swiper-slide">
-                                   
-                                 <div class='card'>
-                                    <div class='card-main'>
-                                       <p>
-                                          Lorem Ipsum is simply dummy text of the printing and typesetting industry.  
-                                       </p>
-                                    </div>
-                                    <div class='card-footer'>
-                                       <img class='avatar' src='assets/img/avatar2.png'>
-                                       <h6>Julia Silva</h6>
-                                    </div>   
-                                 </div>
-
-                               </div>
-                               <div class="swiper-slide">
-                                   
-                                 <div class='card'>
-                                    <div class='card-main'>
-                                       <p>
-                                          Lorem Ipsum is simply dummy text of the printing and typesetting industry.  
-                                       </p>
-                                    </div>
-                                    <div class='card-footer'>
-                                       <img class='avatar' src='assets/img/avatar.png'>
-                                       <h6>Adriado silveira</h6>
-                                    </div>   
-                                 </div>
-
-                               </div>
-                            </div>
-                            <div class="swiper-pagination"></div>
-                         </div>
-                      </div>
-                   </div>
-               
-                  </div>
-                   
-                   
-           
-            
-             </div>
-
-
-                    </div>
-
+ 
+ 
                     
                </div>
         </main>
