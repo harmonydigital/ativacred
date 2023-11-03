@@ -23,6 +23,7 @@ button.btn.circle {
     position: absolute;
     right: 0;
 }
+
 .modal,#modalCall{
     display: none;
 }
