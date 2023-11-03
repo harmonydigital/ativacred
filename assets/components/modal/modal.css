@@ -58,6 +58,12 @@ div#modalpagcontain,#modalLogin {
 }
 .modal-body h2 {
     color: #0054D2;
+    text-align: center;
+}
+.modal p {
+    padding: 0 30px;
+    text-align: left;
+    opacity: .8;
 }
 .modal-body h3 {
     font-size: 1rem;

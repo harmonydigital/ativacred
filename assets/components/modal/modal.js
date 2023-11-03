@@ -33,7 +33,7 @@ var modl=`
 </div>
 
     <div class=" ">    
-    <h2> Consulta CPF <span id='namePage'></span></h2>
+    <h2><span id='namePage'></span></h2>
     <p id='content-text'>..</p>
 
     </div>
