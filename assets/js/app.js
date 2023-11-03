@@ -67,7 +67,7 @@ initapp=()=>{
                      </li>
                   
                      <li class='iten-dropdown' >
-                     <a href=' javascript:void(0)'>Legislação</a>
+                     <a href=' javascript:void(0)'>Entenda seus direitos</a>
                      <div class='dropdown'>
                         <ul>
                         
