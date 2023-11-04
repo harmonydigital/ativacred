@@ -176,13 +176,34 @@ initapp=()=>{
         <main id='main'> 
                 <div class='display'  > 
                         <div class='content-text'>
-                           <h1 >Reabilite seu</h1> 
-                            <span class='title'>Crédito</span>
-                            <p>‘seu nome limpo sem complicações’</p>
-                            <h2 >veja como é fácil reabilitar seu crédito já.</h2>
-                            <a  class='btn-down' href='#about'>
-                                <i class="fa-solid fa-chevron-down"></i>
-                            </a>
+                           <h1 >Limpe seu</h1> 
+                            <span class='title'>Nome</span>
+                            <p>pague debitos depois.</p>
+                            
+                        </div>
+                        <div class='content-consult'>
+                         
+                           <div class='search-consult'>
+                                 <label>Encontre possiveis restriçõs</label>
+                                 <div class='input-group' class='  position: relative; '>
+                                    <span><i class="fa-regular fa-address-card"></i></span>
+                                    <input style="
+                                    left: 0;
+                                    width: 100%;
+                                    padding: 0 37px;
+                                    " name="somename"
+                              e     oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+                                    type = "number"
+                                    maxlength = "11" placeholder='Busque seu CPF'>
+                                          <button><i class="fa-solid fa-arrow-right"></i></button>
+                                   
+                                 </div>
+                        
+
+
+
+                             
+                           </div>
                         </div>
                         <div class='social'>
                             <a class='' href='#'  target="_blank">    

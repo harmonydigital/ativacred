@@ -32,10 +32,7 @@ button.btn.circle {
     color: white;
     text-align: left;
 }
-.content-text p {
-     
-    text-align: center;
-}
+
 .display .content-text h2 {
      
     color: white;
@@ -314,7 +311,7 @@ div#validation {
      font-size: 1rem;
      margin: 0 30px;
      position: relative;
-     bottom: 15rem;
+     bottom: 5rem;
 }
  .social a {
     margin: 8px 45px;
@@ -550,7 +547,45 @@ button.activeModalPage {
     }
 }
  @media(min-width:768px){
+
+    .content-consult {
+        width: 30%;
+    }
     
+    .display h1 {
+        font-size: 1rem !important;
+        text-align: start;
+        font-style: italic;
+    }
+    .display .search-consult svg {
+        font-size: 1.0rem !important;
+        margin: 1px 5px;
+
+    }
+        .display .search-consult label {
+        font-weight: bold;
+        font-size: .7rem;
+        padding: 0 3px;
+        font-style: italic;
+        color: #373051;
+    }
+    .display span {
+        color: #0054d2;
+        font-size: 5.0rem;
+        text-align: start;
+        display: block;
+        text-transform: uppercase;
+        font-weight: 900;
+    }
+    .display p {
+        color: #0054d2;
+        padding: 6px;
+    }
+
+
+
+
+
     .bread .container {
         display: flex;
         max-width: 79%;
@@ -575,8 +610,11 @@ button.activeModalPage {
         max-width: 85%;
         margin: 0 auto;
     }
+    .content-consult{
+        margin: 0 65px;
+    }
     .content-text {
-        padding: 35px 5px !important;
+        padding: 35px 5px ;
     }
     .content-text h2{
         text-align: center !important;
@@ -652,7 +690,11 @@ button.activeModalPage {
          font-size: 2.3rem;
     }
      .display span {
-         font-size: 3.5rem ;
+        .display span {
+            font-size: 4.5rem;
+            font-style: italic;
+            font-weight: 900;
+        }
     }
      .display a span {
          font-size: 10px ;
@@ -667,13 +709,18 @@ button.activeModalPage {
      .about .content-text {
          padding: 0 10px !important;
     }
-     .display {
-         background-position: inherit;
-         background-image: url(../img/bg.png);
-         display: block;
+    .display {
+        background-image: url(../img/bg.png);
+        display: block;
+        background-position: bottom;
+        max-width: 95%;
+        margin: 10px auto 0;
+        border-radius: 30px;
     }
      .display .content-text {
-         padding: 210px 0 0;
+     
+         margin: 40px 40px 15px;
+         line-height: 42px;
     }
      .display .content-text h2 {
          width:160px;
@@ -681,6 +728,14 @@ button.activeModalPage {
     }
 }
  @media(min-width:1200px){
+    .content-consult {
+        width: 22%;
+        margin: 0 90px !important;
+    }
+    .display .content-text {
+        margin: 40px 40px 15px;
+        line-height: 65px;
+    }
     .highlights {
         padding: 10px 0;
     }
@@ -717,12 +772,7 @@ button.activeModalPage {
      .tabs-portfolio {
          max-width: 90%;
          margin: 0 auto;
-    }
-     .display .content-text {
-         padding: 13% 0 0 !important;
-         max-width: 80%;
-         margin: 0 auto;
-    }
+     }
      .harmonyabout {
          min-width: 100%;
          padding: 0 0;

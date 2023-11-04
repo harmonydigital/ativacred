@@ -8,8 +8,9 @@
 }
 .input-group {
     display: flex;
-    z-index: 9999999;
-    color: red;
+    z-index: 9999999; 
+    align-items: center;
+    position: relative;
 }
 .searchapi > div {
     margin: 0;
@@ -23,7 +24,7 @@
     position: absolute;
     z-index: 999;
    
-    width: 100%;
+    width: 100%; 
 }
 
 .input-group > span {
