@@ -178,7 +178,7 @@ initapp=()=>{
                         <div class='content-text'>
                            <h1 >Limpe seu</h1> 
                             <span class='title'>Nome</span>
-                            <p>pague debitos depois.</p>
+                            <p>pague débitos depois.</p>
                             
                         </div>
                         <div class='content-consult'>
