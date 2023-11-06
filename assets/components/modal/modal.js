@@ -25,7 +25,7 @@ var arrBtn=Array.from(btnMOdal)
 var modalpagcontain=document.getElementById('modalpagcontain') 
 var modl=`   
 
-<div class="modal show" id="mpag"  style="display:none;z-index:999;"> 
+<div class="modal " id="mpag"  style="display:none;z-index:999;"> 
 <div class="modal-body" id="modal-body" style="top: 11.4531px; position: fixed;">
   <div class="controls">
     <button onclick="toggleModalPag()"><svg class="svg-inline--fa fa-chevron-left" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 278.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z"></path></svg><!-- <i class="fa-solid fa-chevron-left"></i> Font Awesome fontawesome.com --></button>
@@ -55,7 +55,7 @@ innerContent=(namePg)=>{
     var contenttext=document.getElementById('content-text') 
     contenttext.innerHTML='ok'
 
-    console.log('arr',dataPag)
+    
 
     dataPag.map((el)=>{
         if(namePg==el.name){
@@ -79,9 +79,7 @@ toggleModalPag=()=>{
 namePage=document.getElementById('namePage')
 
 arrBtn.map( (th)=>{
-    
-    console.log(th.name)
-
+     
     th.addEventListener('click',function(e){
          
         document.getElementById('mpag').classList.toggle('show') 

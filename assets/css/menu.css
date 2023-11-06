@@ -87,6 +87,7 @@ li.iten-dropdown:hover .dropdown{
 @media (max-width:1024px){
     .dropdown, .dropdown ul{
         margin: 10px  !important;
+        background-color: transparent !important;
     } 
     .menu nav ul {
         justify-content: space-between;

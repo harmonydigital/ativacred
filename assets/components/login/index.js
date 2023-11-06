@@ -16,9 +16,7 @@
  })
 
 
- console.log(loginSocial)
- console.log(btns)
-
+ 
 
 
 

@@ -50,16 +50,12 @@ initapp=()=>{
                               <ul>
                                
                                  <li>
-                                    <a href='#contact' class='getValidation'  target='_blank' >Consulta CPF Serasa<i class="fa-solid fa-arrow-right"></i></a>
+                                    <a href='#contact' class='activeModalConsult'  target='_blank' >Consulta CPF Serasa<i class="fa-solid fa-arrow-right"></i></a>
                                  </li>
                                  <li>
-                                  <a href='https://protestosp.com.br/' target='_blank' >Consulta CPF Cartório<i class="fa-solid fa-arrow-right"></i></a>
+                                  <a href='#contact' class='activeModalConsult'  target='_blank' >Consulta CPF Cartório<i class="fa-solid fa-arrow-right"></i></a>
                                   </li>
-                                  <li>
-                                  <a href='https://sistema.fenixconsultas.com.br/login'    target='_blank' > Consulta do BACEN<i class="fa-solid fa-arrow-right"></i></a>
-                               </li>
-                               
-                                
+                                   
                               </ul>
                            </div>
                         </li>
@@ -221,7 +217,7 @@ initapp=()=>{
                   <div id='benfits' class='highlights'>
                      <div class='content-text'>
                               <h2>
-                              Conheça <strong>vantagens</strong> para você Reativar seu <strong>Crédito</strong> 
+                              Conheça <strong>vantagens</strong> de Reativar seu <strong>Crédito</strong> 
                               e voltar a investir.</h2>
                      
                            </div>
