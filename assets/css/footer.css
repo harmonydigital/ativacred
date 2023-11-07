@@ -189,8 +189,9 @@ footer .content-text {
          
     }
     footer .display .content-text {
-        padding:  0 !important ;
-      
+        padding: 0 !important;
+        display: flex;
+        flex-direction: column;
     }
     .footer-high .container {
    

@@ -31,6 +31,9 @@ var modalconsult=document.getElementById('modalconsult')
 
 
                              
+                           <div  class='returnMsg'> 
+                           <i class="fa-solid fa-circle-info"></i> Saiba mais sobre suas restrições clicando aqui
+                           </div>
                            </div>
 
     </div>

@@ -5,6 +5,17 @@
      margin: 0;
      font-family: 'Montserrat', sans-serif;
 }
+.modal .search-consult {
+    margin: 30px;
+}
+
+footer .display .btn {
+    background: #ffd707 !important;
+    color: blue !important;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+}
 div#modalconsult {
     position: relative;
     z-index: 999;
