@@ -161,7 +161,7 @@ initapp=()=>{
         oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
         type = "number"
         maxlength = "11" placeholder='Busque seu CPF'>
-            <button><i class="fa-solid fa-arrow-right"></i></button>
+            <button class='getForm'><i class="fa-solid fa-arrow-right"></i></button>
 
           </div>
            
@@ -188,11 +188,10 @@ initapp=()=>{
                                     left: 0;
                                     width: 100%;
                                     padding: 0 37px;
-                                    " name="somename"
-                              e     oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+                                    " name="somename"  oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
                                     type = "number"
                                     maxlength = "11" placeholder='Busque seu CPF'>
-                                          <button><i class="fa-solid fa-arrow-right"></i></button>
+                                          <button class='getForm'><i class="fa-solid fa-arrow-right"></i></button>
                                    
                                  </div>
                         
@@ -335,7 +334,7 @@ initapp=()=>{
                                           </div>
 
                                          
-                                          <button class='btn circle'>
+                                          <button class='btn circle  getForm' >
                                           <i class="fa-solid fa-arrow-right"></i>
                                           </button>
 

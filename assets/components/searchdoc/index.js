@@ -9,12 +9,22 @@ var sinput=document.querySelector('.searchapi input')
 
 
 sinput.addEventListener('keyup',function(){
-    
+ 
+
+
 })
 
 
+var listAct=document.querySelectorAll('.getForm')
 
+var arrList=Array.from(listAct)
 
+arrList.map((ol)=>{
+    ol.addEventListener('click',()=>{
+        toggleModalPag()
+    })
+
+})
 
 
 
