@@ -27,10 +27,11 @@ containerForm.innerHTML=`
      oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
      type = "number"
      maxlength = "11" placeholder='Digite seu CPF'>
+
     </div>
     <div class=" ">    
-       
-         <input type="date" id="birthday" name="birthday" placeholder='Data de Nascimento'>
+    <input placeholder="Data de nascimento" class="textbox-n" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="date" />
+
     </div>
     <div class=" ">    
     <input type='text' placeholder='Numero Telefone'> 
