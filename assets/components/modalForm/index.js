@@ -29,8 +29,8 @@ containerForm.innerHTML=`
      maxlength = "11" placeholder='Digite seu CPF'>
     </div>
     <div class=" ">    
-         <input type='text' placeholder='Data de Nascimento'> 
-
+       
+         <input type="date" id="birthday" name="birthday" placeholder='Data de Nascimento'>
     </div>
     <div class=" ">    
     <input type='text' placeholder='Numero Telefone'> 
