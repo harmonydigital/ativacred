@@ -1,3 +1,5 @@
+
+
 div#modal {
     position: absolute;
     top: 0;
@@ -10,6 +12,16 @@ display: none;
 left: 0;
 z-index: 999;
 }
+::-ms-input-placeholder { /* Edge 12-18 */
+    color: #8886b7;
+    text-transform: capitalize;
+  }
+  
+  ::placeholder {
+    color: #8886b7;
+    text-transform:none;
+
+  }
 header .activeModalPage {
     width: 25px;
     background: transparent;

@@ -306,6 +306,7 @@ div#validation {
      position: relative;
      top: 0;
      opacity: .8;
+     margin: 0 auto 30px;
 }
 .controls button {
     background: transparent;
