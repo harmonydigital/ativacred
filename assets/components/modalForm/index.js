@@ -15,6 +15,8 @@ containerForm.innerHTML=`
 
 
     </div>
+    <div class="form-group ">    
+
     <div class=" ">    
          <input type='text' placeholder='Digite seu nome'> 
 
@@ -32,8 +34,9 @@ containerForm.innerHTML=`
 
 </div>
 <div class=" ">    
-<button>Enviar agora</button>
+<button class='btn-send'>Enviar agora</button>
 
+</div>
 </div>
 
    
