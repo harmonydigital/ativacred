@@ -577,6 +577,10 @@ button.activeModalPage {
     }
 }
  @media(min-width:768px){
+    .form-group {
+        width: 70%;
+        margin: 10px 0;
+    }
 
     .content-consult {
         width: 30%;
