@@ -11,11 +11,31 @@ containerForm.innerHTML=`
 </div>
 
     <div class=" ">    
-    <h2><span id=' '>Preencha os campos</span></h2>
-    <p id='content-text'>..</p>
+        <h2><span id=' '>Preencha os campos</span></h2>
+
 
     </div>
-        
+    <div class=" ">    
+         <input type='text' placeholder='Digite seu nome'> 
+
+    </div>
+    <div class=" ">    
+         <input type='text' placeholder='Digite seu CPF'> 
+
+    </div>
+    <div class=" ">    
+         <input type='text' placeholder='Data de Nascimento'> 
+
+    </div>
+    <div class=" ">    
+    <input type='text' placeholder='Numero Telefone'> 
+
+</div>
+<div class=" ">    
+<button>Enviar agora</button>
+
+</div>
+
    
 </div>
 <div onclick="toggleModalPag()" class="overlay"></div>
