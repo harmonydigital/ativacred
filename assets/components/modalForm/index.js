@@ -22,8 +22,11 @@ containerForm.innerHTML=`
 
     </div>
     <div class=" ">    
-         <input type='text' placeholder='Digite seu CPF'> 
-
+         
+         <input  name="somename"
+     oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+     type = "number"
+     maxlength = "11" placeholder='Digite seu CPF'>
     </div>
     <div class=" ">    
          <input type='text' placeholder='Data de Nascimento'> 
