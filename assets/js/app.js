@@ -100,7 +100,7 @@ initapp=()=>{
                                 <i class="fa-brands fa-whatsapp"></i>
                             </a>
                         </li>
-                        <li style='displaynone;'>
+                        <li style='display:none;'>
                             <div class='btn inline ' onclick='toggleLogin()' target='_blank'>
                                 <span>Entrar</span>
                                 <i class="fa-solid fa-arrow-right-to-bracket"></i>
