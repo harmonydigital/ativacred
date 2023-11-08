@@ -5,6 +5,45 @@
      margin: 0;
      font-family: 'Montserrat', sans-serif;
 }
+input {
+    height: 50px;
+    border: 1px solid #8bbcfd;
+    border-radius: 10px;
+    padding-left:10px ;
+    color: #253b53;
+    font-weight: 900;
+}
+.form-group div input {
+    width: 80%;
+}
+:focus-visible {
+    outline: rgb(123, 0, 255) auto 1px;
+
+}
+.form-group div {
+    margin: 10px auto;
+}
+div#returnMsg {
+    background: #0054d2;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    display: none;
+}
+button.getForm {
+    background: #0054d2;
+    border: 0;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    margin: 0 5px;
+}
 .end {
     text-align: center;
     margin: 36px auto;
@@ -84,6 +123,7 @@ button.btn.circle {
     font-size: 14px;
     color: #8599AB;
     font-weight: 500;
+    
 }
 
 #steps .card-main {
@@ -105,6 +145,15 @@ div#modaldoc {
 }
 .searchapi >div {
 margin: 0;
+}
+.input-group {
+    display: flex;
+    align-items: center;
+}
+button.getForm {
+    z-index: 999;
+    position: absolute;
+    right: 0;
 }
 div#modalCall {
     position: fixed;
@@ -706,9 +755,11 @@ button.activeModalPage {
      .cover {
          margin-bottom: 50px;
     }
-     .social{
-         display: flex;
-         align-items: flex-end;
+    .social {
+        display: flex;
+        align-items: flex-end;
+        width: 200px;
+        float: right;
     }
      .portfolio .text-content h3 {
          padding: 70px 0 50px !important;
@@ -779,6 +830,10 @@ button.activeModalPage {
     .content-consult {
         width: 22%;
         margin: 0 90px !important;
+        position: relative;
+    }
+    .content-text h2{
+        margin: 0 auto;
     }
     .display .content-text {
         margin: 40px 40px 15px;
@@ -882,6 +937,7 @@ button.activeModalPage {
             width: 85%;
             margin: 0 auto;
             border-radius: 20px;
+            min-height: 400px;
        
     }
      .harmonyabout {

@@ -1,5 +1,7 @@
 const app = document.getElementById('app')
-
+getSubmit=()=>{
+   console.log('it')
+}
  
 relogio=()=>{
     containerDate=document.getElementById('relogio')
@@ -150,59 +152,45 @@ initapp=()=>{
 
                <div class='searchapi'>
 
-         <label>
-         </label>
+               <div class='content-consult'>
+                  <div class='input-group' class='position: relative;'>   
+                  <span><i class="fa-regular fa-address-card"></i></span>  
+                  <input id='' style="position: absolute;left: 0; width: 96%; " name="somename" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+                  type = "number"  maxlength = "11" placeholder='Busque seu CPF'> 
 
-          <div class='input-group' class='  position: relative; '>
-            <span><i class="fa-regular fa-address-card"></i></span>
-            <input id='ihome' style="
-            position: absolute;
-            left: 0;
-            width: 96%;
-        " name="somename"
-        oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
-        type = "number"
-        maxlength = "11" placeholder='Busque seu CPF'>
-            <button onClick='getSubmit('ihome')' class='getForm'><i class="fa-solid fa-arrow-right"></i></button>
-
-          </div>
+                  <button class='getForm'><i class="fa-solid fa-arrow-right"></i></button>
+               </div> 
+          
+ 
            
-      </div>
+               </div>
 
        
         </header>
 
         <main id='main'> 
                 <div class='display'  > 
-                        <div class='content-text'>
-                           <h1 >Limpe seu</h1> 
-                            <span class='title'>Nome</span>
-                            <p>pague débitos depois.</p>
-                            
-                        </div>
-                        <div class='content-consult'>
-                         
-                           <div class='search-consult'>
-                                 <label>Encontre possiveis restriçõs</label>
-                                 <div class='input-group' class='  position: relative; '>
-                                    <span><i class="fa-regular fa-address-card"></i></span>
-                                    <input style="
-                                    left: 0;
-                                    width: 100%;
-                                    padding: 0 37px;
-                                    " name="somename"  oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
-                                    type = "number"
-                                    maxlength = "11" placeholder='Busque seu CPF'>
-                                          <button onClick='getSubmit('ihomeDesktop')' class='getForm'><i class="fa-solid fa-arrow-right"></i></button>
-                                   
-                                 </div>
-                        
 
-
-
-                             
+                           <div class='content-text'>
+                              <h1 >Limpe seu</h1> 
+                              <span class='title'>Nome</span>
+                              <p>pague débitos depois.</p> 
                            </div>
+
+                           <div class='content-consult'>
+                              <div class='input-group' class='position: relative;'>   
+                              <span><i class="fa-regular fa-address-card"></i></span>  
+                              <input id='' style="position: absolute;left: 0; width: 96%; " name="somename" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+                              type = "number"  maxlength = "11" placeholder='Busque seu CPF'> 
+
+                              <button class='getForm'><i class="fa-solid fa-arrow-right"></i></button>
+                              
+                  
+                           </div> 
+                             
+                          
                         </div>
+
                         <div class='social'>
                             <a class='' href='#'  target="_blank">    
                                 <i class="fa-brands fa-instagram"></i>
