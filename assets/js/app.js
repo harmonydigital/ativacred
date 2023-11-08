@@ -100,7 +100,7 @@ initapp=()=>{
                                 <i class="fa-brands fa-whatsapp"></i>
                             </a>
                         </li>
-                        <li >
+                        <li style='displaynone;'>
                             <div class='btn inline ' onclick='toggleLogin()' target='_blank'>
                                 <span>Entrar</span>
                                 <i class="fa-solid fa-arrow-right-to-bracket"></i>
@@ -136,11 +136,11 @@ initapp=()=>{
             </div>
              <div class='user-area'> 
                <div class='container-flx'>  
-               <div class=''>  
-                <span>Busque restrições em seu CPF.<span>
-               </div>
-               <div onclick='toggleLogin()' class=''>  
-               <i class="fa-regular fa-user"></i>Entrar
+                  <div class=''>  
+                     <span>Busque restrições em seu CPF.<span>
+                  </div>
+               <div onclick='toggleLogin()' <i  style='displaynone;' class='' >  
+                  <i  style='displaynone;' class="fa-regular fa-user"></i>Entrar
                </div> 
                </div> 
                </div> 
@@ -153,7 +153,7 @@ initapp=()=>{
 
           <div class='input-group' class='  position: relative; '>
             <span><i class="fa-regular fa-address-card"></i></span>
-            <input style="
+            <input  id='ihome' style="
             position: absolute;
             left: 0;
             width: 96%;

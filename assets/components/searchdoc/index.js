@@ -21,7 +21,15 @@ var arrList=Array.from(listAct)
 
 arrList.map((ol)=>{
     ol.addEventListener('click',()=>{
-        toggleModalPag()
+        
+
+         
+        if(document.getElementById('ihome').value.length==10){
+            toggleModalForm()
+        }else{
+            alert('Preencha seu CPF com 11 digitos.' )
+        }
+    
     })
 
 })
