@@ -5,6 +5,18 @@
      margin: 0;
      font-family: 'Montserrat', sans-serif;
 }
+.end {
+    text-align: center;
+    margin: 36px auto;
+    max-width: 80%;
+    font-weight: 800;
+}
+footer .display a.btn {
+    margin: 30px;
+    display: flex;
+    margin: 25px auto 0;
+}
+
 .modal .search-consult {
     margin: 30px;
 }

@@ -153,7 +153,7 @@ initapp=()=>{
 
           <div class='input-group' class='  position: relative; '>
             <span><i class="fa-regular fa-address-card"></i></span>
-            <input  id='ihome' style="
+            <input id='ihomeD' id='ihome' style="
             position: absolute;
             left: 0;
             width: 96%;
@@ -414,6 +414,12 @@ initapp=()=>{
  
                     
                </div>
+
+               <div>
+               <div style="width: 100%"><iframe width="100%" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=500&amp;hl=en&amp;q=avenida%20da%20Rep%C3%BAblica%20251,sala49%20centro%20santa%C2%A0Isabel+(Prianti%20e%20Associados)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/population/">Population calculator map</a></iframe></div>
+               </div>
+
+
         </main>
 
     `
