@@ -1,4 +1,6 @@
 const app = document.getElementById('app')
+
+ 
 relogio=()=>{
     containerDate=document.getElementById('relogio')
     const data=new Date()
@@ -153,7 +155,7 @@ initapp=()=>{
 
           <div class='input-group' class='  position: relative; '>
             <span><i class="fa-regular fa-address-card"></i></span>
-            <input id='ihomeD' id='ihome' style="
+            <input id='ihome' style="
             position: absolute;
             left: 0;
             width: 96%;
@@ -161,7 +163,7 @@ initapp=()=>{
         oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
         type = "number"
         maxlength = "11" placeholder='Busque seu CPF'>
-            <button class='getForm'><i class="fa-solid fa-arrow-right"></i></button>
+            <button onClick='getSubmit('ihome')' class='getForm'><i class="fa-solid fa-arrow-right"></i></button>
 
           </div>
            
@@ -191,7 +193,7 @@ initapp=()=>{
                                     " name="somename"  oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
                                     type = "number"
                                     maxlength = "11" placeholder='Busque seu CPF'>
-                                          <button class='getForm'><i class="fa-solid fa-arrow-right"></i></button>
+                                          <button onClick='getSubmit('ihomeDesktop')' class='getForm'><i class="fa-solid fa-arrow-right"></i></button>
                                    
                                  </div>
                         
