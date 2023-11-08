@@ -54,10 +54,10 @@ initapp=()=>{
                               <ul>
                                
                                  <li>
-                                    <a href='#contact' class='activeModalConsult'  target='_blank' >Consulta CPF Serasa<i class="fa-solid fa-arrow-right"></i></a>
+                                    <a href='#contact' class='activeModalConsult' onclick='toggleModalForm()' target='_blank' >Consulta CPF Serasa<i class="fa-solid fa-arrow-right"></i></a>
                                  </li>
                                  <li>
-                                  <a href='#contact' class='activeModalConsult'  target='_blank' >Consulta CPF Cartório<i class="fa-solid fa-arrow-right"></i></a>
+                                  <a href='https://protestosp.com.br/consulta-de-protesto' class=' '  target='_blank' >Consulta CPF Cartório<i class="fa-solid fa-arrow-right"></i></a>
                                   </li>
                                    
                               </ul>
@@ -150,7 +150,7 @@ initapp=()=>{
                </div> 
 
 
-               <div class='searchapi'>
+               <div class='searchapi' >
 
                <div class='content-consult'>
                   <div class='input-group' class='position: relative;'>   
@@ -177,7 +177,7 @@ initapp=()=>{
                               <p>pague débitos depois.</p> 
                            </div>
 
-                           <div class='content-consult'>
+                           <div class='content-consult' style='display:none'>
                               <div class='input-group' class='position: relative;'>   
                               <span><i class="fa-regular fa-address-card"></i></span>  
                               <input id='' style="position: absolute;left: 0; width: 96%; " name="somename" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
