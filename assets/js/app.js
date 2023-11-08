@@ -320,7 +320,7 @@ initapp=()=>{
                           
                               <div class='card-container'>
                                  
-                              <div class='card'>
+                              <div class='card' >
                                        <div class='card-header'>
                                        <div class='tooltip blue'>
                                        1
@@ -334,7 +334,7 @@ initapp=()=>{
                                           </div>
 
                                          
-                                          <button class='btn circle  getForm' >
+                                          <button class='btn circle  getForm' style='display:none;'>
                                           <i class="fa-solid fa-arrow-right"></i>
                                           </button>
 
