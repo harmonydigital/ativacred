@@ -24,7 +24,7 @@ arrList.map((ol)=>{
         
 
          
-        if(document.getElementById('ihome').value.length==10){
+        if(document.getElementById('ihome').value.length>10){
             toggleModalForm()
         }else{
             alert('Preencha seu CPF com 11 digitos.' )
