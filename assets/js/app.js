@@ -139,8 +139,8 @@ initapp=()=>{
                   <div class=''>  
                      <span>Busque restrições em seu CPF.<span>
                   </div>
-               <div onclick='toggleLogin()' <i  style='displaynone;' class='' >  
-                  <i  style='displaynone;' class="fa-regular fa-user"></i>Entrar
+               <div onclick='toggleLogin()' <i  style='display:none;' class='' >  
+                  <i  style='display:none;' class="fa-regular fa-user"></i>Entrar
                </div> 
                </div> 
                </div> 
