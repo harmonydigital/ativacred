@@ -17,7 +17,7 @@ input {
     font-weight: 900;
 }
 footer {
-    margin: 80px auto 0;
+    margin: 0px auto 0;
 }
 .map {
     background: #eeeff5;
@@ -954,6 +954,11 @@ button.activeModalPage {
     }
 }
  @media(min-width:1200px){
+    
+    .content-text h2 {
+       
+        min-width: 100%;
+    }
     .map .container-flex > div:first-child {
 
         width: 40%;
@@ -961,9 +966,8 @@ button.activeModalPage {
         
     }
     .map .container-flex > div:last-child {
-
         width: 60%;
-        
+        padding: 60px 0;
     }
     .content-consult {
         width: 22%;
