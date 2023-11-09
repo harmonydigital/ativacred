@@ -1,6 +1,8 @@
 var containerForm=document.getElementById('modalform')
 
 
+
+
 containerForm.innerHTML=`
 
 <div class="modal " id="mform"  style="display:none;z-index:999;"> 
@@ -18,7 +20,7 @@ containerForm.innerHTML=`
     <div class="form-group ">    
 
     <div class=" ">    
-         <input type='text' placeholder='Digite seu nome'> 
+         <input id='iname' type='text' placeholder='Digite seu nome'> 
 
     </div>
     <div class=" ">    
@@ -34,11 +36,11 @@ containerForm.innerHTML=`
 
     </div>
     <div class=" ">    
-    <input type='text' placeholder='Numero Telefone'> 
+    <input type='number' placeholder='Numero Telefone'> 
 
 </div>
 <div class=" ">    
-<button class='btn-send'>Enviar agora</button>
+<button onClick='sendMsg()' class='btn-send'>Enviar agora</button>
 
 </div>
 </div>
@@ -52,6 +54,12 @@ containerForm.innerHTML=`
 
 
 `
+
+sendMsg=()=>{
+    var iname=document.getElementById('iname')
+    console.log('iname',iname)
+
+}
 
 toggleModalForm=()=>{
 

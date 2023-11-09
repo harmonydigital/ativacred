@@ -26,8 +26,8 @@ footer {
     align-items: center;
     height: 200px;
 }
-.action a.btn.primary {
-   background-color: yellow;
+.action .btn.primary {
+   background-color: #ffd707;
    margin: 0px auto;
 }
 
@@ -46,7 +46,7 @@ a.whatsapi {
     font-size: 1.5rem;
     right: 20px;
     top: 77%;
-    background-color: yellow;
+    background-color: #ffd707;
 
     box-shadow: 1px 1px 3px #8886b7cf;
 }
@@ -73,8 +73,8 @@ a.whatsapi {
     color: #4F6B96;
     margin: 30px 40px;
 }
-.map a.btn.primary {
-    background-color: yellow;
+.map .btn.primary {
+    background-color: #ffd707;
     margin: 0 auto;
 }
 
@@ -506,7 +506,7 @@ div#validation {
      color: white;
      transition: .2s;
 }
- a.btn.primary {
+ .btn.primary {
      border: 1px solid;
      width: 200px;
      display: inline-flex;
@@ -523,6 +523,7 @@ div#validation {
      box-shadow: 1px 1px 3px #8886b7cf;
      opacity: 0.9;
      transition: .3s;
+     background-color: #ffd707;
 }
  button{
      cursor: pointer;
@@ -575,7 +576,7 @@ div#validation {
 }
  a.btn.primary:hover {
      /* background-image: linear-gradient(to right top, #a5e4fd, #f3b9e6); */
-     background-color: #fad001;    
+     background-color: #ffd707;    
      transition: .3s;
      box-shadow: 0px 1px 0px #8886b7cf;
 }
