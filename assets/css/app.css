@@ -5,6 +5,9 @@
      margin: 0;
      font-family: 'Montserrat', sans-serif;
 }
+body{
+    background-color: #F8F9FD;
+}
 input {
     height: 50px;
     border: 1px solid #8bbcfd;
@@ -13,7 +16,9 @@ input {
     color: #253b53;
     font-weight: 900;
 }
-
+footer {
+    margin: 80px auto;
+}
 
 .action {
     display: flex;
@@ -25,6 +30,39 @@ input {
    background-color: yellow;
    margin: 0px auto;
 }
+
+
+
+
+
+.map .container {
+    display: flex;
+    align-items: center;
+    margin: 50px auto;
+    justify-content: space-around;
+}
+.map .content-text {
+    padding: 50px 5px 0;
+    color: #062f6d;
+    text-align: start !important;
+    max-width: 80%;
+    margin: 0px auto 40px;
+}
+.map .content-text h2 {
+    color: #062f6d;
+    text-align: start !important;
+}
+.map .content-text p {
+    color: #4F6B96;
+    margin: 30px 40px;
+}
+.map a.btn.primary {
+    background-color: yellow;
+    margin: 0 auto;
+}
+
+
+
 
 
 .form-group div input {
@@ -652,6 +690,28 @@ button.activeModalPage {
     }
 }
  @media(min-width:768px){
+    .map .content-text {
+        padding: 50px 5px 0;
+        color: #062f6d;
+        text-align: start !important;
+        max-width: 80%;
+        margin: 0px 0 40px;
+    }
+    .map .container-flex{
+        display: flex;
+        max-width: 79%;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .map .container-flex > div:first-child {
+
+        width: 55%;
+        
+    }
+    
+
+
+
     .form-group {
         width: 70%  !important;
         margin: 10px 0  !important;
@@ -841,6 +901,17 @@ button.activeModalPage {
     }
 }
  @media(min-width:1200px){
+    .map .container-flex > div:first-child {
+
+        width: 40%;
+        margin-left: 8px;
+        
+    }
+    .map .container-flex > div:last-child {
+
+        width: 60%;
+        
+    }
     .content-consult {
         width: 22%;
         margin: 0 90px !important;
