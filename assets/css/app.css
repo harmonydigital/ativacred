@@ -712,6 +712,17 @@ button.activeModalPage {
     }
 }
  @media(min-width:768px){
+    .mv .container-flex {
+        display: flex;
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    .mv .container-flex > div {
+         
+        width: 45%;
+        max-width: 45%;
+        padding:0 5px;
+    }
     .map .content-text {
         padding: 50px 5px 0;
         color: #062f6d;
