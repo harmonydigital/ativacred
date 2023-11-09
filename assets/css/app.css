@@ -24,7 +24,8 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 200px;
+    height: auto;
+    margin: 30px auto 0;
 }
 .action .btn.primary {
    background-color: #ffd707;
@@ -71,13 +72,16 @@ a.whatsapi {
 }
 .map .content-text p {
     color: #4F6B96;
-    margin: 30px 40px;
+    margin: 30px 0;
 }
 .map .btn.primary {
     background-color: #ffd707;
     margin: 0 auto;
 }
-
+.mv .container-flex > div {
+    margin: 40px auto;
+    max-width: 95%;
+}
 
 
 
