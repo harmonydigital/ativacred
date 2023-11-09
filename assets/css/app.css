@@ -19,7 +19,13 @@ input {
 footer {
     margin: 80px auto 0;
 }
-
+.map {
+    background: #eeeff5;
+}
+.map .container-flex > div:last-child {
+    max-width: 85%;
+    margin: 0 auto;
+}
 .action {
     display: flex;
     justify-content: center;
