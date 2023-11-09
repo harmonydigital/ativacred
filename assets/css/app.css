@@ -16,6 +16,10 @@ input {
     color: #253b53;
     font-weight: 900;
 }
+.display{
+    max-height: 450px;
+
+}
 footer {
     margin: 0px auto 0;
 }
@@ -1094,9 +1098,20 @@ button.activeModalPage {
         font-size: 0.7rem;
     }
 }
+ 
 
 
 @media (min-width:1400px) {
+    .display {
+        
+        max-width: 1200px;
+    }
+    header .container-flx {
+        justify-content: space-between;
+        margin: 0 auto;
+        max-width: 1300px;
+    }
+    
     .content-text h2 {
         
         font-size: 2.3rem;
