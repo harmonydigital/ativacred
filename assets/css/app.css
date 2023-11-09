@@ -25,13 +25,27 @@ footer {
     justify-content: center;
     align-items: center;
     height: auto;
-    margin: 30px auto 0;
+    margin: 30px auto ;
 }
 .action .btn.primary {
    background-color: #ffd707;
    margin: 0px auto;
 }
-
+a.whatsapi:hover span {
+    transform: scaleY(1);
+    transition: .2s;
+}
+a.whatsapi span {
+    position: absolute;
+    width: 200px;
+    right: 25px;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 600;
+    font-style: italic;
+    transform: scaleY(0);
+    transition: .2s;
+}
 
 a.whatsapi {
     position: absolute;
