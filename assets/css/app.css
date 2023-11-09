@@ -955,7 +955,7 @@ button.activeModalPage {
 }
  @media(min-width:1200px){
     
-    .content-text h2 {
+    .map .content-text h2 {
        
         min-width: 100%;
     }
