@@ -418,10 +418,18 @@ initapp=()=>{
                <div class='mv'>
                <div class='container-flex'>
                   <div>
-                  vid
+                     <video width="400" controls>
+                        <source src="mov_bbb.mp4" type="video/mp4">
+                        <source src="mov_bbb.ogg" type="video/ogg">
+                        Your browser does not support HTML video.
+                     </video>
                   </div>
                   <div>
-                  vid
+                  <video width="400" controls>
+                  <source src="assets/img" type="video/mp4">
+                  <source src="mov_bbb.ogg" type="video/ogg">
+                  Your browser does not support HTML video.
+               </video>
                   </div>
                </div>
             </div>
@@ -435,7 +443,7 @@ initapp=()=>{
                               Avenida da República 251 - Sala 49 / Centro - Santa Isabel.
                            </p>
                            <p>
-                              +55 (11) 96785-0186
+                              +55 (11) 5540-0056
                            </p>
                               <a class="btn primary" href="#"  onclick='toggleModalForm()'>
                                  <span>Atendimento</span>
