@@ -17,7 +17,7 @@ input {
     font-weight: 900;
 }
 footer {
-    margin: 80px auto;
+    margin: 80px auto 0;
 }
 
 .action {
@@ -32,7 +32,24 @@ footer {
 }
 
 
+a.whatsapi {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    border-radius: 70px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    right: 20px;
+    top: 77%;
+    background-color: yellow;
 
+    box-shadow: 1px 1px 3px #8886b7cf;
+}
 
 
 .map .container {
