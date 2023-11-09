@@ -13,6 +13,20 @@ input {
     color: #253b53;
     font-weight: 900;
 }
+
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+.action a.btn.primary {
+   background-color: yellow;
+   margin: 0px auto;
+}
+
+
 .form-group div input {
     width: 80%;
 }
