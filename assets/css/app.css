@@ -16,10 +16,9 @@ input {
     color: #253b53;
     font-weight: 900;
 }
-/* .display{
-    max-height: 450px;
-
-} */
+form.submitData {
+    width: 90%;
+}
  
 footer {
     margin: 0px auto 0;
@@ -771,7 +770,7 @@ button.activeModalPage {
 
 
     .form-group {
-        width: 70%  !important;
+        width: 100%  !important;
         margin: 10px 0  !important;
     }
 

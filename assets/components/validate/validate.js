@@ -11,8 +11,7 @@ var arrInput=Array.from(inputConsult)
 var btnSubmit=document.querySelectorAll('.content-consult button')
 var arrBtn=Array.from(btnSubmit)
 
-
-console.log('..',btnSubmit)
+ 
 
 
 
