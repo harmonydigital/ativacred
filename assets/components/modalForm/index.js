@@ -58,7 +58,26 @@ containerForm.innerHTML=`
 
 `
  var iname=document.getElementById('iname').value
+ document.querySelector('.mob-consult').addEventListener('submit',(evt)=>{
+    evt.preventDefault()
+    var mobDoc=document.getElementById('mobDoc').value
 
+        if(mobDoc.length===11){
+            console.log('9',mobDoc.length)
+            document.getElementById('inputcpf').value=mobDoc
+        }else{
+            setTimeout(()=>{
+            document.getElementById('returnMsg').classList.toggle('show')
+                
+            }, 500);
+
+            setTimeout(()=>{
+                document.getElementById('returnMsg').classList.toggle('show')
+                    
+                }, 4000);
+        }
+
+ })
 document.querySelector('.submitData').addEventListener('submit',(evt)=>{
 
     evt.preventDefault()
@@ -68,13 +87,13 @@ document.querySelector('.submitData').addEventListener('submit',(evt)=>{
     
     console.log('iname',document.getElementById('inputfon').value )
 
-    var url = "https://wa.me/5511967850186?text=" // Seu numero
+    var url = "https://wa.me/551155400056?text=" // Seu numero
     +
-    "*Olá, novo contato sit" + "%0a" // Mensagem personalizada
+    "*Olá, novo contato site" + "%0a" // Mensagem personalizada
     +
     "%0a" // Quebra de linha
     +
-    "*Nom*: " +document.getElementById('inputname').value + "%0a" // Dados do formulário
+    "*Nome*: " +document.getElementById('inputname').value + "%0a" // Dados do formulário
     +
     "*Nº CPF*: " + document.getElementById('inputcpf').value  + "%0a" // Dados do formulário
     +

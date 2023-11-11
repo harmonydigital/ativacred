@@ -152,17 +152,16 @@ initapp=()=>{
 
                <div class='searchapi' >
 
-               <div class='content-consult'>
-                  <div class='input-group' class='position: relative;'>   
-                  <span><i class="fa-regular fa-address-card"></i></span>  
-                  <input id='' style="position: absolute;left: 0; width: 96%; " name="somename" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
-                  type = "number"  maxlength = "11" placeholder='Busque seu CPF'> 
-
-                  <button class='getForm'><i class="fa-solid fa-arrow-right"></i></button>
-               </div> 
-          
- 
-           
+                  <div class='content-consult'>
+                     <form class='mob-consult'>
+                        <div class='input-group' class='position: relative;'>    
+                           <span><i class="fa-regular fa-address-card"></i></span>  
+                           <input id='mobDoc' style="position: absolute;left: 0; width: 96%; " name="somename" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+                           type = "number"  maxlength = "11" placeholder='Busque seu CPF'>  
+                           <button typ='submit' class='getForm'><i class="fa-solid fa-arrow-right"></i></button>
+                        </div>  
+                     <form> 
+                  </div>
                </div>
 
        
