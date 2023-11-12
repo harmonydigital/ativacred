@@ -110,15 +110,7 @@ initapp=()=>{
                                 <i class="fa-solid fa-arrow-right-to-bracket"></i>
                             </div>
                         </li>
-                        <li>
-                           <button name='ajuda' class='activeModalPage' style="
-                              color: #516583;
-                              text-transform: capitalize;
-                              font-size: 11px;
-                                 ">Ajuda 
-                              <i class="fa-regular fa-circle-question"></i>
-                           </button>
-                        </li>
+                        
                     </ul>
                 </nav>
             </div>
@@ -170,12 +162,7 @@ initapp=()=>{
         <main id='main'> 
                 <div class='display'  > 
 
-                           <div class='content-text'>
-                              <h1 >Limpe seu</h1> 
-                              <span class='title'>Nome</span>
-                              <p>pague débitos depois.</p> 
-                           </div>
-
+                          
                            <div class='content-consult' style='display:none'>
                               <div class='input-group' class='position: relative;'>   
                               <span><i class="fa-regular fa-address-card"></i></span>  
