@@ -1087,7 +1087,18 @@ button.activeModalPage {
             margin: 0 auto;
             border-radius: 20px;
             min-height: 400px;
-       
+            position: relative;
+    }
+    .display button {
+        background: blue;
+        color: white;
+        border: 0;
+        height: 55px;
+        padding: 0 15px;
+        margin: 20px auto;
+        border-radius: 30px;
+        width: 200px;
+        font-weight: 600;
     }
      .harmonyabout {
          margin: 0 auto;

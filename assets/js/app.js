@@ -183,9 +183,21 @@ initapp=()=>{
                             </a>
                             
                             <a class='' href="#" target="_blank">
-                            <i class="fa-brands fa-facebook"></i>
+                              <i class="fa-brands fa-facebook"></i>
                             </a>
                             
+                        </div>
+
+                        <div style="
+                        position: absolute;
+                        left: 42%;
+                        bottom: 0;
+                    " >
+                        <button onclick='toggleModalForm()' class=' '>
+                        Busque seu CPF
+                        
+                           <i class="fa-solid fa-arrow-right"></i></button>
+
                         </div>
 
 
