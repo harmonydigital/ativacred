@@ -230,6 +230,7 @@ button.btn.circle {
     display: flex;
     flex-direction: column;
     width: 100%;
+    padding: 15px 0;
 }
  
 div#modaldoc {

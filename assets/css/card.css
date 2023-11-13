@@ -44,6 +44,7 @@
 }
 .card.active {
     background-color: #0054D2;
+    cursor: pointer;
 }
 .card.card.active h5 {
     color: #FFD707;
@@ -106,6 +107,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+   
 }
 
 .bread .card-container .card button{

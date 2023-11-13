@@ -372,7 +372,7 @@ initapp=()=>{
                                  4
                                  </div>
                                  </div>
-                                    <div class='card-main'>
+                                    <div class='card-main' onclick="toggleModalForm()">
                                        <h5>  
                                           Pronto! Clique para suporte
                                        </h5>
